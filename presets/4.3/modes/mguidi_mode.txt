@@ -1,0 +1,12 @@
+#$ TITLE: Mguidi Mode
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: mguidi, mg, mode, modes, aux, switch
+#$ AUTHOR: Betaflight
+#$ DESCRIPTION: mguidi modes ranges
+
+aux 0 0 0 1900 2100 0 0
+aux 1 1 2 1400 1600 0 0
+aux 2 13 1 1400 1600 0 0
+aux 3 35 1 1900 2100 0 0
