@@ -24,7 +24,7 @@ set rssi_channel = 8
 
 #$ OPTION_GROUP BEGIN: DSHOT
 
-#$ OPTION BEGIN: BIDIR 14p - DSHOT600
+#$ OPTION BEGIN (CHECKED): BIDIR 14p - DSHOT600
 
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT600
@@ -61,7 +61,7 @@ set motor_poles = 12
 
 #$ OPTION_GROUP BEGIN: Receiver
 
-#$ OPTION BEGIN: Crossfire 50hz
+#$ OPTION BEGIN (CHECKED): Crossfire 50hz
 
 feature RX_SERIAL
 set serialrx_provider = CRSF
