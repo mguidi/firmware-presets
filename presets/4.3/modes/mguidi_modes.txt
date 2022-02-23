@@ -7,7 +7,25 @@
 #$ DESCRIPTION: mguidi mode
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
+
+#$ OPTION_GROUP BEGIN: GPS Rescue
+
+#$ OPTION BEGIN (UNCHECKED): No
+
 aux 0 0 0 1900 2100 0 0
 aux 1 1 2 1400 1600 0 0
 aux 2 13 1 1400 1600 0 0
 aux 3 35 1 1900 2100 0 0
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Yes
+
+aux 0 0 0 1900 2100 0 0
+aux 1 1 2 1400 1600 0 0
+aux 2 46 2 1900 2100 0 0
+aux 3 13 1 1400 1600 0 0
+aux 4 35 1 1900 2100 0 0
+
+#$ OPTION END
+#$ OPTION_GROUP END
