@@ -731,9 +731,9 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/modes/mguidi_mode.txt",
-      "hash": "df900c8c0bbcd487fe42839cb2d65292ec685ed828e1c06863ba7b8de7599f9e",
-      "title": "Mguidi Mode",
+      "fullPath": "presets/4.3/modes/mguidi_modes_gps_rescue.txt",
+      "hash": "bbe80aec8ed6ded5b270f857cd6afa0b480c6b8d68f37aa5b820e158a883f17d",
+      "title": "mguidi Mode with gps rescue",
       "firmware_version": [
         "4.3"
       ],
@@ -747,7 +747,27 @@
         "aux",
         "switch"
       ],
-      "author": "Betaflight",
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/modes/mguidi_modes_no_gps.txt",
+      "hash": "34c9a4faa52c6cfa0989904a1889ef91caa77f09c34699e317cd85b7f41a1f56",
+      "title": "mguidi Mode",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mguidi",
+        "mg",
+        "mode",
+        "modes",
+        "aux",
+        "switch"
+      ],
+      "author": "Marco Guidi",
       "priority": 0
     },
     {
@@ -769,7 +789,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_dji_gps.txt",
-      "hash": "fc024da3172aa7aac3c5cfe9ff8ba78939c8c3b4c0e7b3d4334590fca1adfdb9",
+      "hash": "241d8e544bb2206e28e715a067103d204601e5b8b58d9b30c36a13076f9f4ed5",
       "title": "mguidi OSD DJI GPS",
       "firmware_version": [
         "4.3"
@@ -782,12 +802,12 @@
         "OSD",
         "DJI"
       ],
-      "author": "Betaflight",
+      "author": "Marco Guidi",
       "priority": 0
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_dji_no_gps.txt",
-      "hash": "a31a8bb51691f8ed5fd96fc0cd0b01bbc090a8ecb5c756c847b03fc09390fa3f",
+      "hash": "85941ba8f78179b680a46bf8b171b57c574c596e479c7c55d51c5493af5ea659",
       "title": "mguidi OSD DJI",
       "firmware_version": [
         "4.3"
@@ -800,7 +820,7 @@
         "OSD",
         "DJI"
       ],
-      "author": "Betaflight",
+      "author": "Marco Guidi",
       "priority": 0
     },
     {
