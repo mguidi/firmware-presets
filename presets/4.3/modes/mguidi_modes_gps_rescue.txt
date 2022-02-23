@@ -1,10 +1,10 @@
-#$ TITLE: mguidi Mode with gps rescue
+#$ TITLE: mguidi mode with gps rescue
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: mguidi, mg, mode, modes, aux, switch
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: mguidi Mode with gps rescue
+#$ DESCRIPTION: mguidi mode with gps rescue
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
 aux 0 0 0 1900 2100 0 0
