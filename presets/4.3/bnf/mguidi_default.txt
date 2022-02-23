@@ -1,0 +1,25 @@
+#$ TITLE: mguidi defaults
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: mguidi, mg, defaults
+#$ AUTHOR: Marco Guidi
+#$ DESCRIPTION: mguidi defaults
+
+# map
+map TAER1234
+
+# master
+set small_angle = 180
+set rssi_channel = 8
+
+feature RX_SERIAL
+set serialrx_provider = CRSF
+
+# we do not recommend disabling rc smoothing
+set rc_smoothing = ON
+
+# Crossfire locked 50Hz
+set feedforward_averaging = off
+set feedforward_smooth_factor = 0
+set feedforward_jitter_factor = 15
