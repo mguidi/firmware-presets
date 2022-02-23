@@ -227,7 +227,7 @@
       "diatone",
       "disable",
       "divimath",
-      "DJI",
+      "dji",
       "DShot telemetry",
       "E7082VM",
       "ELRS",
@@ -732,8 +732,8 @@
     },
     {
       "fullPath": "presets/4.3/modes/mguidi_modes_gps_rescue.txt",
-      "hash": "bbe80aec8ed6ded5b270f857cd6afa0b480c6b8d68f37aa5b820e158a883f17d",
-      "title": "mguidi Mode with gps rescue",
+      "hash": "327624cfcd35f1763dcbcb2a95b9a68692a6de30874d018f2e9c00ef5037ed68",
+      "title": "mguidi mode with gps rescue",
       "firmware_version": [
         "4.3"
       ],
@@ -752,8 +752,8 @@
     },
     {
       "fullPath": "presets/4.3/modes/mguidi_modes_no_gps.txt",
-      "hash": "34c9a4faa52c6cfa0989904a1889ef91caa77f09c34699e317cd85b7f41a1f56",
-      "title": "mguidi Mode",
+      "hash": "eadab33786b20bbb4a0a1ce0b4d2c11f4f0cd683b30735e083fa7826eb43904a",
+      "title": "mguidi mode",
       "firmware_version": [
         "4.3"
       ],
@@ -789,8 +789,8 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_dji_gps.txt",
-      "hash": "241d8e544bb2206e28e715a067103d204601e5b8b58d9b30c36a13076f9f4ed5",
-      "title": "mguidi OSD DJI GPS",
+      "hash": "4ca67b08fe2b786dc80db4e2763c1850387aa8948496d97b5849fa4124fe6ef2",
+      "title": "mguidi osd dji gps",
       "firmware_version": [
         "4.3"
       ],
@@ -799,16 +799,16 @@
       "keywords": [
         "mguidi",
         "mg",
-        "OSD",
-        "DJI"
+        "osd",
+        "dji"
       ],
       "author": "Marco Guidi",
       "priority": 0
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_dji_no_gps.txt",
-      "hash": "85941ba8f78179b680a46bf8b171b57c574c596e479c7c55d51c5493af5ea659",
-      "title": "mguidi OSD DJI",
+      "hash": "cb47112932a5d3fcc19b3df01dabe23abbd30088045758f71ac2aa38a41d4bc5",
+      "title": "mguidi osd dji",
       "firmware_version": [
         "4.3"
       ],
@@ -817,8 +817,8 @@
       "keywords": [
         "mguidi",
         "mg",
-        "OSD",
-        "DJI"
+        "osd",
+        "dji"
       ],
       "author": "Marco Guidi",
       "priority": 0
@@ -1244,7 +1244,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/mguidi.txt",
-      "hash": "57864d873bb9b0704c97c0aa025e3ea034535b7aa98c924af6d9cb1bb733db82",
+      "hash": "be8d68c685e9484f38db0103a7baefa402543210974facb70619a6f0d818f55c",
       "title": "mguidi rates",
       "firmware_version": [
         "4.3"
@@ -1252,6 +1252,8 @@
       "category": "RATES",
       "status": "COMMUNITY",
       "keywords": [
+        "mguidi",
+        "mg",
         "rates"
       ],
       "author": "Marco Guidi",
