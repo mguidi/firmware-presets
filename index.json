@@ -129,6 +129,7 @@
       "4.3"
     ],
     "category": [
+      "BNF",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -382,6 +383,23 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/4.3/bnf/mguidi_default.txt",
+      "hash": "dfc3fed7496213e9550d128c5d2cb53ca7e9447e9eb27a702c2ce0e0040c87f6",
+      "title": "mguidi defaults",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mguidi",
+        "mg",
+        "defaults"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
     {
       "fullPath": "presets/4.3/filters/BMI270.txt",
       "hash": "af69e3c94ef3dcdd2fca5906292a0dbcf4e4ac1cf74a35860d379cd9e5436c4f",
