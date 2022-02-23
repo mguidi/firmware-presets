@@ -280,6 +280,8 @@
       "longrange",
       "mamba",
       "meteor",
+      "mg",
+      "mguidi",
       "MinChan",
       "mode",
       "modes",
@@ -722,6 +724,26 @@
         "mode",
         "modes",
         "adjustments",
+        "aux",
+        "switch"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/modes/mguidi_mode.txt",
+      "hash": "df900c8c0bbcd487fe42839cb2d65292ec685ed828e1c06863ba7b8de7599f9e",
+      "title": "Mguidi Mode",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mguidi",
+        "mg",
+        "mode",
+        "modes",
         "aux",
         "switch"
       ],
