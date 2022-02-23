@@ -1,10 +1,10 @@
-#$ TITLE: mguidi Mode
+#$ TITLE: mguidi mode
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: mguidi, mg, mode, modes, aux, switch
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: mguidi Mode
+#$ DESCRIPTION: mguidi mode
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
 aux 0 0 0 1900 2100 0 0
