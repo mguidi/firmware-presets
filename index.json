@@ -252,7 +252,7 @@
       "Garban",
       "ghost",
       "GHST",
-      "GPS",
+      "gps",
       "gyro",
       "gyros",
       "gyroscope",
@@ -788,26 +788,8 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.3/osd/mguidi_osd_dji_gps.txt",
-      "hash": "4ca67b08fe2b786dc80db4e2763c1850387aa8948496d97b5849fa4124fe6ef2",
-      "title": "mguidi osd dji gps",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "osd",
-        "dji"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/mguidi_osd_dji_no_gps.txt",
-      "hash": "cb47112932a5d3fcc19b3df01dabe23abbd30088045758f71ac2aa38a41d4bc5",
+      "fullPath": "presets/4.3/osd/mguidi_osd_dji.txt",
+      "hash": "9362219b96b70691cc9b7812cb006ffda465a62f330ed2c143fd7c44d1e1d246",
       "title": "mguidi osd dji",
       "firmware_version": [
         "4.3"
@@ -818,7 +800,8 @@
         "mguidi",
         "mg",
         "osd",
-        "dji"
+        "dji",
+        "gps"
       ],
       "author": "Marco Guidi",
       "priority": 0
