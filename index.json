@@ -386,7 +386,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "8dc3e392dbb7d31af911da7788cc01a03f531962606304c75880cadb9f6e9cab",
+      "hash": "c10c5fc533e5448dce693944d44db924a428aa6b1d68511d169930e5a00c6afa",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.3"
@@ -751,7 +751,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/mguidi_modes.txt",
-      "hash": "87c73374b8ea1d3c875eb857b6c6611bde37a4e96758187d875f0369d6e8107f",
+      "hash": "9cb6542868977835176a6268ebe98a7ddf982f0834bb81a25f37757253744c9d",
       "title": "mguidi mode",
       "firmware_version": [
         "4.3"
