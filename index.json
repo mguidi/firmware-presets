@@ -198,6 +198,7 @@
       "adjustments",
       "aggressive",
       "AlexFPV",
+      "analog",
       "aux",
       "AyyyKayyy",
       "bando",
@@ -385,7 +386,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "7ba3d847d1aee471a086fb1c880babecfff90a4836cacf2faec7ac388b6103c1",
+      "hash": "8dc3e392dbb7d31af911da7788cc01a03f531962606304c75880cadb9f6e9cab",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.3"
@@ -750,7 +751,7 @@
     },
     {
       "fullPath": "presets/4.3/modes/mguidi_modes.txt",
-      "hash": "aa793a9763917e9eb2dd2c66b032bfaeff42cfe795f10e08b0b0d57110390066",
+      "hash": "87c73374b8ea1d3c875eb857b6c6611bde37a4e96758187d875f0369d6e8107f",
       "title": "mguidi mode",
       "firmware_version": [
         "4.3"
@@ -783,6 +784,25 @@
         "OSD"
       ],
       "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/mguidi_osd_analog.txt",
+      "hash": "68abaf50865cb91c4d6fd425ce3c6d80d7aa1157d9b7a0792ae3c35d3f8969e3",
+      "title": "mguidi osd analog",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mguidi",
+        "mg",
+        "osd",
+        "analog",
+        "gps"
+      ],
+      "author": "Marco Guidi",
       "priority": 0
     },
     {
