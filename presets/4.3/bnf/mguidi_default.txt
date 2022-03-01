@@ -111,8 +111,10 @@ aux 4 35 1 1900 2100 0 0
 #$ OPTION BEGIN (CHECKED): No
 aux 0 0 0 1900 2100 0 0
 aux 1 1 2 1400 1600 0 0
-aux 2 13 1 1400 1600 0 0
-aux 3 35 1 1900 2100 0 0
+aux 2 13 4 1900 2100 0 0
+aux 3 26 1 1400 2100 0 0
+aux 4 31 5 1900 2100 0 0
+aux 5 35 1 1900 2100 0 0
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -156,6 +158,19 @@ set osd_home_dist_pos = 14349
 set osd_warnings_pos = 14795
 set osd_avg_cell_voltage_pos = 293
 set osd_disarmed_pos = 14764
+#$ OPTION END
+
+
+#$ OPTION BEGIN (CHECKED): Analog
+set osd_warn_rssi = ON
+set osd_rssi_alarm = 70
+set osd_cap_alarm = 0
+set osd_vbat_pos = 14817
+set osd_rssi_pos = 14394
+set osd_tim_1_pos = 14839
+set osd_flymode_pos = 14828
+set osd_craft_name_pos = 459
+set osd_warnings_pos = 14793
 #$ OPTION END
 
 #$ OPTION_GROUP END
