@@ -386,7 +386,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "c10c5fc533e5448dce693944d44db924a428aa6b1d68511d169930e5a00c6afa",
+      "hash": "9c663e249fc62416f06d3cb0fb608ab56a98660b4facc6c299508adfc68f87b0",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.3"
@@ -788,7 +788,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_analog.txt",
-      "hash": "68abaf50865cb91c4d6fd425ce3c6d80d7aa1157d9b7a0792ae3c35d3f8969e3",
+      "hash": "ef845dafd94bd80c18fe2b1497fc216667d4b2347b31b93483925ccfcbd24454",
       "title": "mguidi osd analog",
       "firmware_version": [
         "4.3"
@@ -807,7 +807,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_dji.txt",
-      "hash": "9362219b96b70691cc9b7812cb006ffda465a62f330ed2c143fd7c44d1e1d246",
+      "hash": "2d665df0be33421f65084aeae5a42c80ab29f30f904ef0b1cebb646c4856a53a",
       "title": "mguidi osd dji",
       "firmware_version": [
         "4.3"
