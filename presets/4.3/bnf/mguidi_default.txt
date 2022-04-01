@@ -81,9 +81,9 @@ set yaw_rc_rate = 100
 set roll_expo = 20
 set pitch_expo = 20
 set yaw_expo = 10
-set roll_srate = 62
-set pitch_srate = 60
-set yaw_srate = 59
+set roll_srate = 64
+set pitch_srate = 62
+set yaw_srate = 60
 
 
 #$ OPTION_GROUP BEGIN: GPS
