@@ -23,12 +23,25 @@ map TAER1234
 # master
 set small_angle = 180
 set rssi_channel = 12
+set yaw_motors_reversed = ON
+set deadband = 1
+set yaw_deadband = 1
 
 # rxrange
 rxrange 0 988 2011
 rxrange 1 988 2011
 rxrange 2 988 2011
 rxrange 3 988 2011
+
+#$ OPTION_GROUP BEGIN: Serial
+
+ #$ OPTION BEGIN (CHECKED): F722 HD Serial
+serial 1 1 115200 57600 0 115200
+serial 3 2 115200 57600 0 115200
+serial 4 64 115200 57600 0 115200
+#$ OPTION END
+
+#$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: DSHOT
 
