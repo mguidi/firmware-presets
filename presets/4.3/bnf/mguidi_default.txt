@@ -22,7 +22,13 @@ map TAER1234
 
 # master
 set small_angle = 180
-set rssi_channel = 8
+set rssi_channel = 12
+
+# rxrange
+rxrange 0 988 2011
+rxrange 1 988 2011
+rxrange 2 988 2011
+rxrange 3 988 2011
 
 #$ OPTION_GROUP BEGIN: DSHOT
 
