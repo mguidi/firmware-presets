@@ -386,7 +386,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "9c663e249fc62416f06d3cb0fb608ab56a98660b4facc6c299508adfc68f87b0",
+      "hash": "52524a407fbe7557d653604299735e6a5700214ec3e10e655fe4ebb84e714aed",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.3"
@@ -788,8 +788,27 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_analog.txt",
-      "hash": "ef845dafd94bd80c18fe2b1497fc216667d4b2347b31b93483925ccfcbd24454",
+      "hash": "09f953749c2de3c8ab9abe1f3696750fc10161b016e73ea4e4246da4f795fc7a",
       "title": "mguidi osd analog",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "mguidi",
+        "mg",
+        "osd",
+        "analog",
+        "gps"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.3/osd/mguidi_osd_avatar.txt",
+      "hash": "1de992ed86733ce3c4d87cd567eaf1c33d98c390ac313fb10e76cd30352ba427",
+      "title": "mguidi osd avatar",
       "firmware_version": [
         "4.3"
       ],
@@ -1245,7 +1264,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/mguidi.txt",
-      "hash": "be8d68c685e9484f38db0103a7baefa402543210974facb70619a6f0d818f55c",
+      "hash": "513dd8f63aa08fc1c775ea1d82ac2134b7c3a9e57fc13f17dc1f45e065627173",
       "title": "mguidi rates",
       "firmware_version": [
         "4.3"
