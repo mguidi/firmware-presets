@@ -154,7 +154,9 @@ aux 6 35 1 1900 2100 0 0
 #$ OPTION_GROUP END
 
 
-#$ OPTION BEGIN (UNCHECKED): GPS
+#$ OPTION_GROUP BEGIN: GPS
+
+#$ OPTION BEGIN (UNCHECKED): Flywoo GM8-5883 V1.0
 feature GPS
 
 set gps_provider = UBLOX
@@ -169,6 +171,7 @@ set gps_rescue_allow_arming_without_fix = ON
 
 #$ OPTION END
 
+#$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: OSD
 
