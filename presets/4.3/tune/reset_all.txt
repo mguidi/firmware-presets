@@ -2,7 +2,7 @@
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: TUNE
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset, tune, pid, expert, default
+#$ KEYWORDS: reset, tune, pid, expert
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Checked tune related parameters will be reset to defaults.
 #$ DESCRIPTION: Un-check the parameters you want to keep at current values.
@@ -75,11 +75,7 @@ set anti_gravity_gain = 3500
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Feedforward
-set feedforward_boost = 18
 set feedforward_max_rate_limit = 95
-set feedforward_jitter_factor = 5
-set feedforward_jitter_factor = 7
-set feedforward_averaging = OFF
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): PID Sum Limit
