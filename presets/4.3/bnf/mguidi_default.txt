@@ -24,6 +24,9 @@ set yaw_motors_reversed = ON
 set deadband = 1
 set yaw_deadband = 1
 set debug_mode = GYRO_SCALED
+set vbat_warning_cell_voltage = 370
+set mag_hardware = NONE
+set baro_hardware = NONE
 
 # rxrange
 rxrange 0 988 2011
@@ -74,13 +77,15 @@ rateprofile 0
 
  #$ OPTION BEGIN (UNCHECKED): F722 HD
 serial 1 1 115200 57600 0 115200
-serial 3 2 115200 57600 0 115200
+serial 4 64 115200 57600 0 115200
+set displayport_msp_serial = 1
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): F722 HD With GPS
 serial 1 1 115200 57600 0 115200
 serial 3 2 115200 57600 0 115200
 serial 4 64 115200 57600 0 115200
+set displayport_msp_serial = 1
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -176,6 +181,7 @@ set gps_rescue_allow_arming_without_fix = ON
 #$ OPTION_GROUP BEGIN: OSD
 
 #$ OPTION BEGIN (CHECKED): AVATAR
+set osd_displayport_device = MSP
 set osd_warn_batt_not_full = OFF
 set osd_warn_batt_warning = OFF
 set osd_warn_batt_critical = OFF
