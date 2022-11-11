@@ -1,10 +1,13 @@
 #$ TITLE: Default 4.3 Filter settings
 #$ FIRMWARE_VERSION: 4.3
+#$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: FILTERS
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: defaults, filter, filters, reset
 #$ AUTHOR: Betaflight
 #$ DESCRIPTION: Resets Filter settings to 4.3 defaults
+
+set gyro_hardware_lpf = NORMAL
 
 # -- Gyro lowpass filters --
 set gyro_lpf1_type = PT1
@@ -34,6 +37,7 @@ set dyn_notch_max_hz = 600
 set gyro_filter_debug_axis = ROLL
 
 # -- RPM filtering --
+set dshot_bidir = OFF
 set rpm_filter_harmonics = 3
 set rpm_filter_q = 500
 set rpm_filter_min_hz = 100
