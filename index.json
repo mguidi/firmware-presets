@@ -479,7 +479,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "4118ebb0d10c853be2547a817bbf210588ddfece3235bbb64dc7c5be0126ea84",
+      "hash": "4e82e7cccf4ab9bd85bdae8956863584185690d96dd0e68629eb451a518d1b30",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.3"
@@ -955,7 +955,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_analog.txt",
-      "hash": "5ffede7764dead030c499a7dfe9ef53c3e281f6b40ed845763312af3bd299984",
+      "hash": "78a35fe198a25affb907533919aafc415f5b5689664517261c7222e77309d38e",
       "title": "mguidi osd analog",
       "firmware_version": [
         "4.3"
@@ -974,7 +974,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_avatar.txt",
-      "hash": "17c90bc11127a14adc2a5042bff8ea88e9b05df2e259baf24de79420b8f101bb",
+      "hash": "1d3ec606dc7ae51507de6799fe68c8730053fad71861a28e096ed651cc205d9c",
       "title": "mguidi osd avatar",
       "firmware_version": [
         "4.3"
@@ -1601,7 +1601,7 @@
     },
     {
       "fullPath": "presets/4.3/rates/mguidi.txt",
-      "hash": "cb4744a8aaad360379c5df3b66f2d2e684140e0555f7ccd31e43ed9dad8689c4",
+      "hash": "de6bd3b778ca6539581424515fc9127bcf3e16cd1c5284d4dac2928c2609947c",
       "title": "mguidi rates",
       "firmware_version": [
         "4.3"
