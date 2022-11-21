@@ -11,14 +11,7 @@
 
 #$ OPTION BEGIN (UNCHECKED): YES
 
-
-
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): NO
-
 set osd_warn_batt_not_full = OFF
-set osd_warn_batt_critical = ON
 set osd_warn_visual_beeper = OFF
 set osd_warn_link_quality = ON
 set osd_rssi_alarm = 0
@@ -26,18 +19,66 @@ set osd_cap_alarm = 0
 set osd_alt_alarm = 0
 set osd_tim1 = 2
 set osd_tim2 = 0
-set osd_vbat_pos = 14385
+set osd_vbat_pos = 14353
 set osd_rssi_pos = 0
-set osd_link_quality_pos = 14369
+set osd_link_quality_pos = 14336
 set osd_rssi_dbm_pos = 0
-set osd_tim_1_pos = 14785
-set osd_tim_2_pos = 14807
+set osd_tim_1_pos = 14360
+set osd_tim_2_pos = 88
 set osd_flymode_pos = 0
 set osd_current_pos = 14391
 set osd_mah_drawn_pos = 0
 set osd_craft_name_pos = 0
+set osd_gps_speed_pos = 14560
+set osd_gps_lon_pos = 16576
+set osd_gps_lat_pos = 16544
+set osd_gps_sats_pos = 14624
+set osd_home_dir_pos = 14382
+set osd_home_dist_pos = 14496
 set osd_warnings_pos = 14793
-set osd_avg_cell_voltage_pos = 14377
+set osd_avg_cell_voltage_pos = 14345
+set osd_disarmed_pos = 14571
+set osd_stat_tim_2 = OFF
+set osd_stat_max_spd = OFF
+set osd_stat_min_batt = OFF
+set osd_stat_min_rssi = OFF
+set osd_stat_max_curr = OFF
+set osd_stat_used_mah = OFF
+set osd_stat_bbox = OFF
+set osd_stat_bb_no = OFF
+set osd_gps_sats_show_hdop = OFF
+set osd_displayport_device = MSP
+
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): NO
+
+set osd_warn_batt_not_full = OFF
+set osd_warn_visual_beeper = OFF
+set osd_warn_link_quality = ON
+set osd_rssi_alarm = 0
+set osd_cap_alarm = 0
+set osd_alt_alarm = 0
+set osd_tim1 = 2
+set osd_tim2 = 0
+set osd_vbat_pos = 14353
+set osd_rssi_pos = 0
+set osd_link_quality_pos = 14336
+set osd_rssi_dbm_pos = 0
+set osd_tim_1_pos = 14360
+set osd_tim_2_pos = 88
+set osd_flymode_pos = 0
+set osd_current_pos = 14391
+set osd_mah_drawn_pos = 0
+set osd_craft_name_pos = 0
+set osd_gps_speed_pos = 224
+set osd_gps_lon_pos = 16576
+set osd_gps_lat_pos = 16544
+set osd_gps_sats_pos = 288
+set osd_home_dir_pos = 46
+set osd_home_dist_pos = 160
+set osd_warnings_pos = 14793
+set osd_avg_cell_voltage_pos = 14345
 set osd_disarmed_pos = 14571
 set osd_stat_tim_2 = OFF
 set osd_stat_max_spd = OFF
