@@ -479,7 +479,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "4e82e7cccf4ab9bd85bdae8956863584185690d96dd0e68629eb451a518d1b30",
+      "hash": "2fa8df974aef3319580ed556605d230eef545043485859a5866e16fe71d40aeb",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.3"
@@ -974,7 +974,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_avatar.txt",
-      "hash": "1d3ec606dc7ae51507de6799fe68c8730053fad71861a28e096ed651cc205d9c",
+      "hash": "b6e4749f589bd5a2de67d0391445f114180246f73817d9ddceb577c63db86ca2",
       "title": "mguidi osd avatar",
       "firmware_version": [
         "4.3"
@@ -993,7 +993,7 @@
     },
     {
       "fullPath": "presets/4.3/osd/mguidi_osd_dji.txt",
-      "hash": "2d665df0be33421f65084aeae5a42c80ab29f30f904ef0b1cebb646c4856a53a",
+      "hash": "11daaa42bff76d03c8890b5f95a08131b6d441e9bca795a5ece9cf4a7a26fc30",
       "title": "mguidi osd dji",
       "firmware_version": [
         "4.3"
