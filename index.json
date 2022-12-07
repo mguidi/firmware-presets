@@ -479,7 +479,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "2fa8df974aef3319580ed556605d230eef545043485859a5866e16fe71d40aeb",
+      "hash": "9933718fc712d16da50d54be9ee7662386b260d0f58b1f1775851f58da98ec2c",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.3"
