@@ -31,6 +31,8 @@ set vbat_warning_cell_voltage = 360
 set mag_hardware = NONE
 set baro_hardware = NONE
 set pilot_name = DRIVEFPV
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
 
 # rxrange
 rxrange 0 988 2011
