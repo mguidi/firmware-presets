@@ -1,5 +1,5 @@
-#$ TITLE: mguidi rates
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: mguidi rates freestyle cinematic
+#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: mguidi, mg, rates
@@ -7,7 +7,6 @@
 #$ DESCRIPTION: rates by mguidi.
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
-#$ OPTION BEGIN (CHECKED): FREESTYLE/CINEMATIC RATE
 set rates_type = ACTUAL
 set roll_rc_rate = 18
 set pitch_rc_rate = 18
@@ -18,14 +17,3 @@ set yaw_expo = 40
 set roll_srate = 49
 set pitch_srate = 49
 set yaw_srate = 49
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): TOOLBOX TUNING RATE
-set rates_type = ACTUAL
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
-set yaw_rc_rate = 20
-set roll_srate = 25
-set pitch_srate = 25
-set yaw_srate = 25
-#$ OPTION END
