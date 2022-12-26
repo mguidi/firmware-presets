@@ -1,5 +1,5 @@
-#$ TITLE: mguidi mode
-#$ FIRMWARE_VERSION: 4.4
+#$ TITLE: mguidi mode gps rescue
+#$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: mguidi, mg, mode, modes, aux, switch
@@ -7,9 +7,11 @@
 #$ DESCRIPTION: mguidi mode
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
+
 aux 0 0 0 1900 2100 0 0
 aux 1 1 2 1400 1600 0 0
-aux 2 13 4 1900 2100 0 0
-aux 3 26 1 1400 2100 0 0
-aux 4 31 5 1900 2100 0 0
-aux 5 35 1 1900 2100 0 0
+aux 2 46 2 1900 2100 0 0
+aux 3 13 4 1900 2100 0 0
+aux 4 26 1 1400 2100 0 0
+aux 5 31 5 1900 2100 0 0
+aux 6 35 1 1900 2100 0 0
