@@ -5,9 +5,6 @@
 #$ KEYWORDS: mguidi, mg, defaults
 #$ AUTHOR: Marco Guidi
 #$ DESCRIPTION: mguidi defaults
-#$ INCLUDE: presets/4.3/osd/defaults.txt
-#$ INCLUDE: presets/4.3/rates/defaults.txt
-#$ INCLUDE: presets/4.3/modes/defaults.txt
 
 # feature
 feature -SOFTSERIAL
@@ -30,9 +27,9 @@ set debug_mode = GYRO_SCALED
 set vbat_warning_cell_voltage = 360
 set mag_hardware = NONE
 set baro_hardware = NONE
-set pilot_name = DRIVEFPV
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
+set pilot_name = DRIVEFPV
 
 # rxrange
 rxrange 0 988 2011
@@ -41,35 +38,7 @@ rxrange 2 988 2011
 rxrange 3 988 2011
 
 rateprofile 0
-
-# FREESTYLE/CINEMATIC RATE
-# rateprofile 0
-set rates_type = ACTUAL
-set rates_type = ACTUAL
-set roll_rc_rate = 18
-set pitch_rc_rate = 18
-set yaw_rc_rate = 18
-set roll_expo = 30
-set pitch_expo = 30
-set yaw_expo = 40
-set roll_srate = 49
-set pitch_srate = 49
-set yaw_srate = 49
-
-rateprofile 1
-
-# TOOLBOX TUNING RATE
-# rateprofile 1
-set rates_type = ACTUAL
-set roll_rc_rate = 20
-set pitch_rc_rate = 20
-set yaw_rc_rate = 20
-set roll_srate = 25
-set pitch_srate = 25
-set yaw_srate = 25
-
-# restore original rateprofile selection
-rateprofile 0
+#$ INCLUDE: presets/4.4/rates/mguidi_freestyle_cinematic.txt
 
 #$ OPTION_GROUP BEGIN: DSHOT
 
@@ -117,22 +86,11 @@ set serialrx_provider = CRSF
 #$ OPTION_GROUP BEGIN: Modes
 
 #$ OPTION BEGIN (CHECKED): Arm, Turtle, DebugMode, Angle, Buzzer, Erase BlackBox
-aux 0 0 0 1900 2100 0 0
-aux 1 1 2 1400 1600 0 0
-aux 2 13 4 1900 2100 0 0
-aux 3 26 1 1400 2100 0 0
-aux 4 31 5 1900 2100 0 0
-aux 5 35 1 1900 2100 0 0
+#$ INCLUDE: presets/4.4/modes/mguidi_modes_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Arm, Turtle, DebugMode, Angle, RTH, Buzzer, Erase BlackBox
-aux 0 0 0 1900 2100 0 0
-aux 1 1 2 1400 1600 0 0
-aux 2 46 2 1900 2100 0 0
-aux 3 13 4 1900 2100 0 0
-aux 4 26 1 1400 2100 0 0
-aux 5 31 5 1900 2100 0 0
-aux 6 35 1 1900 2100 0 0
+#$ INCLUDE: presets/4.4/modes/mguidi_modes_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -142,16 +100,16 @@ aux 6 35 1 1900 2100 0 0
 
 #$ OPTION BEGIN (UNCHECKED): Flywoo GM8-5883 V1.0
 feature GPS
-set failsafe_procedure = GPS-RESCUE
 set gps_provider = NMEA
-set gps_sbas_mode = EGNOS
-set gps_auto_baud = ON
-set gps_ublox_use_galileo = ON
+set gps_auto_baud = OFF
+set gps_auto_config = OFF
+set gps_ublox_use_galileo = OFF
 set gps_set_home_point_once = ON
-set gps_rescue_pitch_angle_max = 30
-set gps_rescue_min_sats = 6
+set gps_rescue_descent_dist = 100
+set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+set gps_rescue_min_sats = 5
+set gps_rescue_min_dth = 50
 set gps_rescue_allow_arming_without_fix = ON
-
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -159,168 +117,24 @@ set gps_rescue_allow_arming_without_fix = ON
 #$ OPTION_GROUP BEGIN: OSD
 
 #$ OPTION BEGIN (CHECKED): AVATAR
-set osd_rssi_alarm = 0
-set osd_cap_alarm = 0
-set osd_alt_alarm = 0
-set osd_tim1 = 2
-set osd_tim2 = 0
-set osd_vbat_pos = 14387
-set osd_rssi_pos = 0
-set osd_link_quality_pos = 14369
-set osd_rssi_dbm_pos = 0
-set osd_tim_1_pos = 15398
-set osd_tim_2_pos = 88
-set osd_flymode_pos = 0
-set osd_current_pos = 14397
-set osd_mah_drawn_pos = 0
-set osd_craft_name_pos = 0
-set osd_gps_speed_pos = 13376
-set osd_gps_lon_pos = 16576
-set osd_gps_lat_pos = 16544
-set osd_gps_sats_pos = 13384
-set osd_home_dir_pos = 12379
-set osd_home_dist_pos = 12371
-set osd_flight_dist_pos = 12364
-set osd_altitude_pos = 28737
-set osd_warnings_pos = 14901
-set osd_avg_cell_voltage_pos = 14380
-set osd_battery_usage_pos = 545
-set osd_disarmed_pos = 14615
-set osd_stat_bitmask = 0
-set osd_profile = 1
-set osd_gps_sats_show_hdop = OFF
-set vcd_video_system = HD
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AVATAR with GPS
-set osd_rssi_alarm = 0
-set osd_cap_alarm = 0
-set osd_alt_alarm = 0
-set osd_tim1 = 2
-set osd_tim2 = 0
-set osd_vbat_pos = 14387
-set osd_rssi_pos = 0
-set osd_link_quality_pos = 14369
-set osd_rssi_dbm_pos = 0
-set osd_tim_1_pos = 15398
-set osd_tim_2_pos = 88
-set osd_flymode_pos = 0
-set osd_current_pos = 14397
-set osd_mah_drawn_pos = 0
-set osd_craft_name_pos = 0
-set osd_gps_speed_pos = 13376
-set osd_gps_lon_pos = 16576
-set osd_gps_lat_pos = 16544
-set osd_gps_sats_pos = 13384
-set osd_home_dir_pos = 12379
-set osd_home_dist_pos = 12371
-set osd_flight_dist_pos = 12364
-set osd_altitude_pos = 28737
-set osd_warnings_pos = 14901
-set osd_avg_cell_voltage_pos = 14380
-set osd_battery_usage_pos = 545
-set osd_disarmed_pos = 14615
-set osd_stat_bitmask = 0
-set osd_profile = 2
-set osd_gps_sats_show_hdop = OFF
-set vcd_video_system = HD
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): DJI
-set osd_rssi_alarm = 0
-set osd_cap_alarm = 0
-set osd_alt_alarm = 0
-set osd_tim1 = 2
-set osd_tim2 = 0
-set osd_vbat_pos = 14352
-set osd_rssi_pos = 0
-set osd_link_quality_pos = 14336
-set osd_rssi_dbm_pos = 0
-set osd_tim_1_pos = 14360
-set osd_tim_2_pos = 88
-set osd_flymode_pos = 0
-set osd_current_pos = 14391
-set osd_mah_drawn_pos = 0
-set osd_craft_name_pos = 0
-set osd_gps_speed_pos = 12340
-set osd_gps_lon_pos = 16576
-set osd_gps_lat_pos = 16544
-set osd_gps_sats_pos = 12332
-set osd_home_dir_pos = 12337
-set osd_home_dist_pos = 12326
-set osd_altitude_pos = 28704
-set osd_warnings_pos = 14793
-set osd_avg_cell_voltage_pos = 14344
-set osd_disarmed_pos = 14571
-set osd_stat_bitmask = 0
-set osd_profile = 1
-set vcd_video_system = PAL
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_dji.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): DJI with GPS Info
-set osd_rssi_alarm = 0
-set osd_cap_alarm = 0
-set osd_alt_alarm = 0
-set osd_tim1 = 2
-set osd_tim2 = 0
-set osd_vbat_pos = 14352
-set osd_rssi_pos = 0
-set osd_link_quality_pos = 14336
-set osd_rssi_dbm_pos = 0
-set osd_tim_1_pos = 14360
-set osd_tim_2_pos = 88
-set osd_flymode_pos = 0
-set osd_current_pos = 14391
-set osd_mah_drawn_pos = 0
-set osd_craft_name_pos = 0
-set osd_gps_speed_pos = 12340
-set osd_gps_lon_pos = 16576
-set osd_gps_lat_pos = 16544
-set osd_gps_sats_pos = 12332
-set osd_home_dir_pos = 12337
-set osd_home_dist_pos = 12326
-set osd_altitude_pos = 28704
-set osd_warnings_pos = 14793
-set osd_avg_cell_voltage_pos = 14344
-set osd_disarmed_pos = 14571
-set osd_stat_bitmask = 0
-set osd_profile = 2
-set vcd_video_system = PAL
+#$ OPTION BEGIN (UNCHECKED): DJI with GPS
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_dji_gps.txt
 #$ OPTION END
 
 
 #$ OPTION BEGIN (UNCHECKED): Analog
-set osd_warn_batt_not_full = OFF
-set osd_warn_batt_critical = ON
-set osd_warn_visual_beeper = OFF
-set osd_warn_link_quality = ON
-set osd_rssi_alarm = 0
-set osd_cap_alarm = 0
-set osd_alt_alarm = 0
-set osd_tim1 = 2
-set osd_tim2 = 0
-set osd_vbat_pos = 14385
-set osd_rssi_pos = 0
-set osd_link_quality_pos = 14369
-set osd_rssi_dbm_pos = 0
-set osd_tim_1_pos = 14785
-set osd_tim_2_pos = 14807
-set osd_flymode_pos = 0
-set osd_current_pos = 14391
-set osd_mah_drawn_pos = 0
-set osd_craft_name_pos = 0
-set osd_warnings_pos = 14793
-set osd_avg_cell_voltage_pos = 14377
-set osd_disarmed_pos = 14571
-set osd_stat_tim_2 = OFF
-set osd_stat_max_spd = OFF
-set osd_stat_min_batt = OFF
-set osd_stat_min_rssi = OFF
-set osd_stat_max_curr = OFF
-set osd_stat_used_mah = OFF
-set osd_stat_bbox = OFF
-set osd_stat_bb_no = OFF
-set osd_gps_sats_show_hdop = OFF
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
