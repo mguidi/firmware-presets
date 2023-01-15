@@ -185,6 +185,7 @@
     ],
     "keywords": [
       "\\\\GAS",
+      "03",
       "111hz",
       "150Hz",
       "15Hz",
@@ -310,6 +311,7 @@
       "GTB339",
       "gyroflow",
       "HD",
+      "HD video",
       "HDzero",
       "Headsup",
       "HighKV",
@@ -358,6 +360,8 @@
       "no rpm",
       "noisy",
       "normal",
+      "O3",
+      "O3 air unit",
       "Omni",
       "OpenRacer",
       "OpenVTx",
@@ -3192,12 +3196,11 @@
     },
     {
       "fullPath": "presets/4.3/vtx/Avatar_HD.txt",
-      "hash": "a46945bf1b8475bd6cdc97df38231213e594f036a12e0239670b598fee48d0a8",
+      "hash": "9f8ff52bf17a04377528e7b00c50a7aff735ef1d171d31233890f927e1708d48",
       "title": "Avatar HD VTXs",
       "firmware_version": [
         "4.2",
-        "4.3",
-        "4.4"
+        "4.3"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -4084,13 +4087,13 @@
     },
     {
       "fullPath": "presets/4.4/tune/karate/karate_brushless_whoop.txt",
-      "hash": "ad409a5a1de37964e0dcb3efc1a4763fb561be20af38e9db8d3e6ab5729be839",
+      "hash": "f9ceb1406b895481e2308017d84b4f25993f4fef21b5aff955a3cd52e588ce64",
       "title": "Karate brushless whoop",
       "firmware_version": [
         "4.4"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "karate",
         "2s",
@@ -4107,13 +4110,13 @@
     },
     {
       "fullPath": "presets/4.4/tune/karate/karate_freestyle_5_inch.txt",
-      "hash": "d552cc99b2e3e63c0db5e42b1296d32de870eb33a1828f47a502d078768a0595",
+      "hash": "10832d62fb35dd3eed0c20ba2751df7ddc856f5543eec0981098de629a050240",
       "title": "Freestyle 5\" Karate Style",
       "firmware_version": [
         "4.4"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "OFFICIAL",
       "keywords": [
         "karate",
         "6S",
@@ -4130,13 +4133,13 @@
     },
     {
       "fullPath": "presets/4.4/tune/karate/karate_race.txt",
-      "hash": "93c8b56627ab864a06953e47f9e2b5d1816f37392d338ce0bf5bafdcebeb1f76",
+      "hash": "1525da4f6a78af9d884de8765a356735c47651037ef19cb4ec4a13e3f4ff4a89",
       "title": "Karate Race 6s 5\"",
       "firmware_version": [
         "4.4"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "OFFICIAL",
       "keywords": [
         "karate",
         "6S",
@@ -4154,13 +4157,13 @@
     },
     {
       "fullPath": "presets/4.4/tune/karate/karate_race_lite.txt",
-      "hash": "4a1932b90f787c98db6a1cf3789506173653c53c00487e2859c3971d5b02d3c3",
+      "hash": "38500350860b05a20b67fba95f66764c57a6af6dc7faca2ddca255699c7891b6",
       "title": "Karate 'Viper Lite' Race  5\"",
       "firmware_version": [
         "4.4"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "karate",
         "race",
@@ -4180,13 +4183,13 @@
     },
     {
       "fullPath": "presets/4.4/tune/karate/tiny_karate.txt",
-      "hash": "069c35b00dda75c161d255ebb4526bf26d388e23ddd5902236c8e42f0809699a",
+      "hash": "2bc0126717a9c8ecb64f9066285680111aca04b702ea473b04594b665af59e09",
       "title": "533 TinyTrainer Karate",
       "firmware_version": [
         "4.4"
       ],
       "category": "TUNE",
-      "status": "EXPERIMENTAL",
+      "status": "COMMUNITY",
       "keywords": [
         "karate",
         "race",
@@ -4569,8 +4572,38 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.4/vtx/DJI_FPV-WTF_MSP-OSD.txt",
+      "hash": "0bf01a93340826921756a44a006fbd46ff1fca8be2212a6d91d180ff1f3bbcdd",
+      "title": "OSD for Fpv.wtf, DJI O3, Avatar HD",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "VTX",
+      "status": "COMMUNITY",
+      "keywords": [
+        "vtx",
+        "dji",
+        "O3 air unit",
+        "O3",
+        "03",
+        "avatar",
+        "walksnail",
+        "HD",
+        "HD video",
+        "vista",
+        "air unit",
+        "fpv.wtf",
+        "wtfos",
+        "msp-osd",
+        "displayport",
+        "msp"
+      ],
+      "author": "benlumley",
+      "priority": 1000000
+    },
+    {
       "fullPath": "presets/4.4/vtx/HDZero.txt",
-      "hash": "852fb67d08a9814a1b240d537e1909e934b7c16991b42581b002482e633403f2",
+      "hash": "e843067b3c45c9472f2a16c9aee6f2b4d56d9144258ed597c28a24376a695020",
       "title": "HDZero VTXs",
       "firmware_version": [
         "4.4"
