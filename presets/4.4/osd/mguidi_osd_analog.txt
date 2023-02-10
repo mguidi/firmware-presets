@@ -2,52 +2,42 @@
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: mguidi, mg, osd, analog, gps
+#$ KEYWORDS: mguidi, mg, osd, analog
 #$ AUTHOR: Marco Guidi
 #$ DESCRIPTION: mguidi osd values for analog
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
-#$ OPTION_GROUP BEGIN: GPS
-
-#$ OPTION BEGIN (UNCHECKED): YES
-
-
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): NO
-
-set osd_warn_batt_not_full = OFF
-set osd_warn_batt_critical = ON
-set osd_warn_visual_beeper = OFF
-set osd_warn_link_quality = ON
+set osd_warn_bitmask = 24575
 set osd_rssi_alarm = 0
+set osd_link_quality_alarm = 50
 set osd_cap_alarm = 0
 set osd_alt_alarm = 0
 set osd_tim1 = 2
 set osd_tim2 = 0
-set osd_vbat_pos = 14385
+set osd_vbat_pos = 14384
 set osd_rssi_pos = 0
 set osd_link_quality_pos = 14369
 set osd_rssi_dbm_pos = 0
-set osd_tim_1_pos = 14785
-set osd_tim_2_pos = 14807
+set osd_tim_1_pos = 14391
+set osd_tim_2_pos = 88
 set osd_flymode_pos = 0
-set osd_current_pos = 14391
+set osd_current_pos = 14785
 set osd_mah_drawn_pos = 0
 set osd_craft_name_pos = 0
-set osd_warnings_pos = 14793
+set osd_gps_speed_pos = 64
+set osd_gps_lon_pos = 16576
+set osd_gps_lat_pos = 16544
+set osd_gps_sats_pos = 33
+set osd_home_dir_pos = 413
+set osd_home_dist_pos = 61
+set osd_compass_bar_pos = 0
+set osd_altitude_pos = 16431
+set osd_warnings_pos = 14794
 set osd_avg_cell_voltage_pos = 14377
-set osd_disarmed_pos = 14571
-set osd_stat_tim_2 = OFF
-set osd_stat_max_spd = OFF
-set osd_stat_min_batt = OFF
-set osd_stat_min_rssi = OFF
-set osd_stat_max_curr = OFF
-set osd_stat_used_mah = OFF
-set osd_stat_bbox = OFF
-set osd_stat_bb_no = OFF
-set osd_gps_sats_show_hdop = OFF
-
-#$ OPTION END
-
-#$ OPTION_GROUP END
+set osd_disarmed_pos = 14603
+set osd_sys_goggle_voltage_pos = 256
+set osd_sys_lq_pos = 288
+set osd_stat_bitmask = 147194
+set osd_displayport_device = AUTO
+set osd_canvas_width = 30
+set osd_canvas_height = 16
