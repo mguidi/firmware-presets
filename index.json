@@ -186,11 +186,14 @@
     "keywords": [
       "\\\\GAS",
       "03",
+      "10\"",
+      "10in",
       "111hz",
       "150Hz",
       "15Hz",
       "166Hz",
       "1S",
+      "2.5in",
       "2.5W",
       "2022",
       "20ms",
@@ -257,6 +260,7 @@
       "Cgo",
       "Chief",
       "cinelifter",
+      "CineLog",
       "cinematic",
       "cinewhoop",
       "clean",
@@ -3688,7 +3692,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/mguidi_default.txt",
-      "hash": "1831589ca3b37327a39a8a687acbc5c38699fd799e43789ff585668641d9d8c3",
+      "hash": "ed99bca947a010919c298a320e41237a16f896dfb4728ca6b4c01bb237211e0b",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.4"
@@ -3745,7 +3749,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_analog.txt",
-      "hash": "ec6dccea11c53df9cbc8f1042046a0e9e7cc08eac2d9b779e6d2fdc35998976a",
+      "hash": "e312a73f7889217d16b7954d474a5193d561c7d399c109ae1f559529c604a296",
       "title": "mguidi osd analog",
       "firmware_version": [
         "4.4"
@@ -3756,8 +3760,7 @@
         "mguidi",
         "mg",
         "osd",
-        "analog",
-        "gps"
+        "analog"
       ],
       "author": "Marco Guidi",
       "priority": 0
@@ -3801,7 +3804,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_dji.txt",
-      "hash": "4c4313455600875633611bc38bcd24cea370597696327364b9e89c83b1ffd6a2",
+      "hash": "e71ea042542362b41ebb1a135ad9d57215de0cddc60395ad53aa5c06484ddc29",
       "title": "mguidi osd dji",
       "firmware_version": [
         "4.4"
@@ -3819,7 +3822,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_dji_gps.txt",
-      "hash": "7477a18f43a28adcfb41a2fb1cee449a4e6469bbd5a20f439a930f4f0af01c67",
+      "hash": "b34c375785b8b30230ebb4b0b69662191fbb01d78a9be2422119036bd0de027a",
       "title": "mguidi osd dji gps",
       "firmware_version": [
         "4.4"
@@ -4389,9 +4392,28 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_5in.txt",
-      "hash": "38205bf367af8274f6996a7f681f01505bb5339abe5af22210b6e3b5ed74f321",
-      "title": "UAV Tech - 5in (590-630g AUW)",
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_10in.txt",
+      "hash": "06eef176ab75d5b14f51b3e55c54a7af5500a0e470d3f5a0f96c6df8f6f32c13",
+      "title": "UAV Tech - 10\" (1400-1700g | 31xx motors)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "4S",
+        "6S",
+        "10in",
+        "10\"",
+        "freestyle"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_5in_Freestyle_575-650.txt",
+      "hash": "8a135ccf846fc66a7429d5b6b9de688d06f7590a3e51670e71eb77f1a3139a38",
+      "title": "UAV Tech - 5\" Freestyle withOUT GoPro (575-650g AUW)",
       "firmware_version": [
         "4.4"
       ],
@@ -4408,14 +4430,53 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_6-7in.txt",
-      "hash": "58a74f67fd61d2f8e2e588a9736498dcc9721f0cac59273311e9c1efc47e7708",
-      "title": "UAV Tech - 6-7in (~700g AUW)",
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_5in_Freestyle_650-750.txt",
+      "hash": "c4dec6fb1e1585ea6cf3f4b65a5238971c425a4c076ffea876523ce9bf6dfcb2",
+      "title": "UAV Tech - 5\" Freestyle with GoPro (650-750g AUW)",
       "firmware_version": [
         "4.4"
       ],
       "category": "TUNE",
-      "status": "COMMUNITY",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "4S",
+        "6S",
+        "5in",
+        "5\"",
+        "freestyle"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_5in_Race_500-575.txt",
+      "hash": "d9bfc1e021f779daca2c5355dcf39e7d722551409cd43ffe4d879e2187d87099",
+      "title": "UAV Tech - 5\" Race (500-550g AUW)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "4S",
+        "6S",
+        "5in",
+        "5\"",
+        "race",
+        "racing"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_6-7in.txt",
+      "hash": "4b3a7dbb68ce1a549388db0e91d6493e163102a49dc4fe42c30e73f65d31c74b",
+      "title": "UAV Tech - 6\"/7\" (750-1000g AUW)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
       "keywords": [
         "4S",
         "6S",
@@ -4431,8 +4492,8 @@
     },
     {
       "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_8-9in.txt",
-      "hash": "f45120715acc4714cb9817ba7e1115c15228af7222180e1963e926b87a2dc62d",
-      "title": "UAV Tech - 8-9in (~750g AUW)",
+      "hash": "cd281cb9cf447a4cbbaa557ac5158efad1c6d86eff33de1869ca1ac2267e629d",
+      "title": "UAV Tech - 8\"/9\" (1000-1400 AUW)",
       "firmware_version": [
         "4.4"
       ],
@@ -4452,9 +4513,9 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_8-9in_Cinelifter.txt",
-      "hash": "0d2d68ef47dece0f6e5f54c67d3412cbaa48d6870f7f2633a919ee02818ea383",
-      "title": "UAV Tech - 8-9in Cinelifter (>2,000g AUW)",
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_Cinelifter_8-9in.txt",
+      "hash": "92b6628bf8ef93672847990da7faf063841d91deaace2c4c690c2bd61a38d7f6",
+      "title": "UAV Tech - Cinelifter (8\"/9\" >2,000g AUW)",
       "firmware_version": [
         "4.4"
       ],
@@ -4473,8 +4534,23 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_Cinelog.txt",
+      "hash": "a1c938ca3f8261f52924e0b7b03f1408081e22a52efe605b94e0ed9b0616d5ed",
+      "title": "UAV Tech - Cinelog (250-300g AUW)",
+      "firmware_version": [
+        "4.4"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "CineLog"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_Cinewhoop.txt",
-      "hash": "cfe99f093a1f07b3160793fcd2c06d26b7b91018788e3b5f3565f4fef0f8246b",
+      "hash": "da84d4f544982876965ea439c0768d4dbcb3c77fdd49d3ae7a62f94bbb9f1d50",
       "title": "UAV Tech - Cinewhoop",
       "firmware_version": [
         "4.4"
@@ -4488,9 +4564,9 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_Toothpic.txt",
-      "hash": "8ed47902466b35fe4bfc35954c0847955d5b2f27730bda700953cbd508abb63f",
-      "title": "UAV Tech - Toothpic (2in to 4in)",
+      "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_Micro.txt",
+      "hash": "6e7eca7fd2c1665998b7ca02d5cf418ba6a8d46ad88c8085cb8121507e00f0cd",
+      "title": "UAV Tech - Micro (2\" to 4\")",
       "firmware_version": [
         "4.4"
       ],
@@ -4498,10 +4574,12 @@
       "status": "EXPERIMENTAL",
       "keywords": [
         "2S",
+        "3S",
         "4S",
         "6S",
         "toothpic",
         "2in",
+        "2.5in",
         "3in",
         "3.5in",
         "4in"
@@ -4511,7 +4589,7 @@
     },
     {
       "fullPath": "presets/4.4/tune/uav_tech/UAV_tech_Whoop.txt",
-      "hash": "b0cd23c486979a5bca5c93c123a4c30ac5611ca1e2790b4718f642105a80f8c7",
+      "hash": "4c6e116ea29ed283e4c5288d8307672d8d8cda0f34ffd697a90f802ceb3b5d7a",
       "title": "UAV Tech - Whoop (1S & 2S)",
       "firmware_version": [
         "4.4"
