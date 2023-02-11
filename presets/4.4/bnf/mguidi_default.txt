@@ -9,6 +9,7 @@
 # feature
 feature -SOFTSERIAL
 feature TELEMETRY
+feature OSD
 
 # beeper
 beeper -BAT_CRIT_LOW
