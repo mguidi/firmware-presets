@@ -3692,7 +3692,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/mguidi_default.txt",
-      "hash": "b5a2fd3733dd5585b4bfb7176634c03dc9d180aaced20db95eaff1021ef5f673",
+      "hash": "e527caf067bf497ccc29fe2d47af4a0904d31fd1ae7380e8dfc7f1b6aaf89da6",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.4"
@@ -3822,7 +3822,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_dji_gps.txt",
-      "hash": "149c98cd0717f2aff6f09b4114476660baea12e4fa17c09d02477e92745e43c4",
+      "hash": "7b5a3ac303b9520870684457daa1bc06091e800b8a0ae51a30760a21cbfad43a",
       "title": "mguidi osd dji gps",
       "firmware_version": [
         "4.4"
