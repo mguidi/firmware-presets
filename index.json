@@ -3767,7 +3767,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_avatar.txt",
-      "hash": "1a72a61ec1fd17808c8e0c36a2949f7c00f6343266d61cd083024dbf6bb9f44b",
+      "hash": "7a8a183b3f3fd6e6050bfadf04a2690d6fff7c46fb98898c48f0645cae2ad281",
       "title": "mguidi osd avatar",
       "firmware_version": [
         "4.4"
@@ -3785,8 +3785,8 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_avatar_gps.txt",
-      "hash": "c8c883bfb09168914b78d64e864155f1d5cc43bdd2b86c90ae4d80cb598c99d2",
-      "title": "mguidi osd avatar gps",
+      "hash": "7a8a183b3f3fd6e6050bfadf04a2690d6fff7c46fb98898c48f0645cae2ad281",
+      "title": "mguidi osd avatar",
       "firmware_version": [
         "4.4"
       ],
@@ -3796,8 +3796,7 @@
         "mguidi",
         "mg",
         "osd",
-        "avatar",
-        "gps"
+        "avatar"
       ],
       "author": "Marco Guidi",
       "priority": 0
@@ -3822,7 +3821,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_dji_gps.txt",
-      "hash": "7b5a3ac303b9520870684457daa1bc06091e800b8a0ae51a30760a21cbfad43a",
+      "hash": "bcef905d8e22571d34021bb666726d213883fcbb7f7c522a1b40266dd092a8a7",
       "title": "mguidi osd dji gps",
       "firmware_version": [
         "4.4"
@@ -3924,7 +3923,7 @@
     },
     {
       "fullPath": "presets/4.4/rates/mguidi_freestyle_cinematic.txt",
-      "hash": "caf07fb09f666d8574153f2d860afdd6faf74d45976efe44bfe3daf230651dbf",
+      "hash": "23a870def3631daf6bc1b87d9e71cf0182e6150203a99cd1e8abc9da390f6867",
       "title": "mguidi rates freestyle cinematic",
       "firmware_version": [
         "4.4"
