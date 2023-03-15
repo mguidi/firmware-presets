@@ -1,10 +1,10 @@
-#$ TITLE: mguidi osd avatar
+#$ TITLE: mguidi osd avatar gps
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: mguidi, mg, osd, avatar
+#$ KEYWORDS: mguidi, mg, osd, avatar, gps
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: mguidi osd values for analog
+#$ DESCRIPTION: mguidi osd values for avatar
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
 set osd_warn_bitmask = 24575
