@@ -3767,7 +3767,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_avatar.txt",
-      "hash": "7a8a183b3f3fd6e6050bfadf04a2690d6fff7c46fb98898c48f0645cae2ad281",
+      "hash": "2d810232589557881baaf9f1f633129d599ecc91365e793006a31338c9ff84da",
       "title": "mguidi osd avatar",
       "firmware_version": [
         "4.4"
@@ -3785,8 +3785,8 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_avatar_gps.txt",
-      "hash": "672b660247439f51bd074efda58f2c5b1e5234aeb3464102b2a5b0bf85026fad",
-      "title": "mguidi osd avatar",
+      "hash": "40e0e06ee3ef27e8f5a912121edc12c4892034710080840e5d2bf775067a478f",
+      "title": "mguidi osd avatar gps",
       "firmware_version": [
         "4.4"
       ],
@@ -3796,7 +3796,8 @@
         "mguidi",
         "mg",
         "osd",
-        "avatar"
+        "avatar",
+        "gps"
       ],
       "author": "Marco Guidi",
       "priority": 0
