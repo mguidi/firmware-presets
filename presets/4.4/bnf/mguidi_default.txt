@@ -72,14 +72,14 @@ set pid_process_denom = 1
 
 #$ OPTION_GROUP BEGIN: Receiver
 
-#$ OPTION BEGIN (CHECKED): Crossfire 50hz
+#$ OPTION BEGIN (UNCHECKED): Crossfire 50hz
 feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 80
 set osd_rssi_dbm_alarm = -90
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Crossfire 150hz
+#$ OPTION BEGIN (UNCHECKED): Crossfire 150hz
 feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 50
