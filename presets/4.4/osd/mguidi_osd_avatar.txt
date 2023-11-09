@@ -7,18 +7,17 @@
 #$ DESCRIPTION: mguidi osd values for avatar
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
-set osd_warn_bitmask = 24575
+set osd_warn_bitmask = 57343
 set osd_rssi_alarm = 0
-set osd_link_quality_alarm = 50
 set osd_cap_alarm = 0
 set osd_alt_alarm = 0
 set osd_tim1 = 2
 set osd_tim2 = 0
 set osd_vbat_pos = 14348
 set osd_rssi_pos = 0
-set osd_link_quality_pos = 14336
+set osd_link_quality_pos = 14337
 set osd_link_tx_power_pos = 234
-set osd_rssi_dbm_pos = 0
+set osd_rssi_dbm_pos = 14369
 set osd_tim_1_pos = 15374
 set osd_tim_2_pos = 88
 set osd_remaining_time_estimate_pos = 234
@@ -49,7 +48,7 @@ set osd_pid_yaw_pos = 234
 set osd_debug_pos = 234
 set osd_power_pos = 234
 set osd_pidrate_profile_pos = 234
-set osd_warnings_pos = 14900
+set osd_warnings_pos = 14901
 set osd_avg_cell_voltage_pos = 14360
 set osd_pit_ang_pos = 234
 set osd_rol_ang_pos = 234
@@ -78,4 +77,6 @@ set osd_sys_goggle_voltage_pos = 256
 set osd_sys_lq_pos = 288
 set osd_stat_bitmask = 147194
 set osd_displayport_device = MSP
+set osd_canvas_width = 60
+set osd_canvas_height = 22
 set vcd_video_system = HD
