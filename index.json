@@ -264,7 +264,7 @@
       "Audio TBS",
       "AutoSelect",
       "aux",
-      "avatar",
+      "Avatar",
       "AyyyKayyy",
       "bando",
       "bardwell",
@@ -515,23 +515,6 @@
     ]
   },
   "presets": [
-    {
-      "fullPath": "presets/4.3/bnf/mguidi_default.txt",
-      "hash": "914432fa83999a479538adac389c1e970ccde76f62ff0dce3d31c6047674a1b4",
-      "title": "mguidi defaults",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "defaults"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
@@ -962,99 +945,6 @@
         "OSD"
       ],
       "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/mguidi_osd_analog.txt",
-      "hash": "78a35fe198a25affb907533919aafc415f5b5689664517261c7222e77309d38e",
-      "title": "mguidi osd analog",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "osd",
-        "analog",
-        "gps"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/mguidi_osd_avatar.txt",
-      "hash": "4c72060c902d74e795e15b13437693feecdf9aaec931a124dafb7767ebd978ea",
-      "title": "mguidi osd avatar",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "osd",
-        "avatar"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/mguidi_osd_avatar_gps.txt",
-      "hash": "19d8217642a207b3a463ba812ac09afd2116346cec56b2f3cdd6a498237eb4d8",
-      "title": "mguidi osd avatar gps",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "osd",
-        "avatar",
-        "gps"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/mguidi_osd_dji.txt",
-      "hash": "35869fa92fdff1a83b8fce493dbaa68122a217d617224189c04dd1673966c021",
-      "title": "mguidi osd dji",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "osd",
-        "dji"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.3/osd/mguidi_osd_dji_gps.txt",
-      "hash": "32dd735cfdc1d0dda19b249bb7cc308395ac16a3ffaf3d8ddabb9c69d93c1d32",
-      "title": "mguidi osd dji gps",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "osd",
-        "dji",
-        "gps"
-      ],
-      "author": "Marco Guidi",
       "priority": 0
     },
     {
@@ -1709,23 +1599,6 @@
         "MultiGP"
       ],
       "author": "Ivan Efimov (Limon)",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.3/rates/mguidi_freestyle_cinematic.txt",
-      "hash": "925584d802f33088fd4d1bb0fff6301a5beca7d2ab4e7a784adee6b043a5acc9",
-      "title": "mguidi rates freestyle cinematic",
-      "firmware_version": [
-        "4.3"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "mguidi",
-        "mg",
-        "rates"
-      ],
-      "author": "Marco Guidi",
       "priority": 10000
     },
     {
@@ -3857,7 +3730,7 @@
     },
     {
       "fullPath": "presets/4.4/bnf/mguidi_default.txt",
-      "hash": "3538149a5dd4eddca3f98d656e9b311a0553a25a3a3fb0a40a8b27f941c50c81",
+      "hash": "a6499a454c6793b3ec3a01f0da28cad92397803eef877182c5583f1f5706e2f2",
       "title": "mguidi defaults",
       "firmware_version": [
         "4.4"
@@ -3989,7 +3862,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_avatar.txt",
-      "hash": "0696086579089e5d65a9d6a079e4d821414871aca4cf61a5ec01631b42996dbd",
+      "hash": "f6638266617b0d153c8de00d99f297cc9321d7a49f39f80871eb85ae5d5b6d9a",
       "title": "mguidi osd avatar",
       "firmware_version": [
         "4.4"
@@ -4007,7 +3880,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/mguidi_osd_avatar_gps.txt",
-      "hash": "a26279d3a2cccb13ff043226a68d98acb2a105d40f88f7291a15647d65fc2550",
+      "hash": "1c4d1ab9425dde77f44b5c9e71d86a8778497bf0d68d5fe9870ada26119a791a",
       "title": "mguidi osd avatar gps",
       "firmware_version": [
         "4.4"
