@@ -32,30 +32,11 @@ set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 set pilot_name = DRIVEFPV
 
-# rxrange
-rxrange 0 988 2011
-rxrange 1 988 2011
-rxrange 2 988 2011
-rxrange 3 988 2011
 
 rateprofile 0
 #$ INCLUDE: presets/4.4/rates/mguidi_freestyle_cinematic.txt
 
 #$ OPTION_GROUP BEGIN: DSHOT
-
-#$ OPTION BEGIN (CHECKED): BIDIR 14p - DSHOT300
-set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT300
-set motor_poles = 14
-set pid_process_denom = 2
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - DSHOT600
-set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT600
-set motor_poles = 14
-set pid_process_denom = 1
-#$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): BIDIR 12p - DSHOT300
 set dshot_bidir = ON
@@ -71,14 +52,45 @@ set motor_poles = 12
 set pid_process_denom = 1
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - DSHOT300
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT300
+set motor_poles = 14
+set pid_process_denom = 2
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): BIDIR 14p - DSHOT600
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT600
+set motor_poles = 14
+set pid_process_denom = 1
+#$ OPTION END
+
+
 #$ OPTION_GROUP END
 
 
 #$ OPTION_GROUP BEGIN: Receiver
 
-#$ OPTION BEGIN (CHECKED): Crossfire
+#$ OPTION BEGIN (CHECKED): Crossfire 50hz
 feature RX_SERIAL
 set serialrx_provider = CRSF
+set osd_link_quality_alarm = 80
+set osd_rssi_dbm_alarm = -90
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Crossfire 150hz
+feature RX_SERIAL
+set serialrx_provider = CRSF
+set osd_link_quality_alarm = 50
+set osd_rssi_dbm_alarm = -90
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): Elrs 250hz
+feature RX_SERIAL
+set serialrx_provider = CRSF
+set osd_link_quality_alarm = 50
+set osd_rssi_dbm_alarm = -90
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -133,15 +145,6 @@ rxfail 6 s 1500
 #$ OPTION BEGIN (UNCHECKED): AVATAR with GPS
 #$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar_gps.txt
 #$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DJI
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_dji.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DJI with GPS
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_dji_gps.txt
-#$ OPTION END
-
 
 #$ OPTION BEGIN (UNCHECKED): Analog
 #$ INCLUDE: presets/4.4/osd/mguidi_osd_analog.txt
