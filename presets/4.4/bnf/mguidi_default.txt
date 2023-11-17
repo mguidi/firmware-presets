@@ -36,6 +36,22 @@ set pilot_name = DRIVEFPV
 rateprofile 0
 #$ INCLUDE: presets/4.4/rates/mguidi_freestyle_cinematic.txt
 
+#$ OPTION_GROUP BEGIN: OSD
+
+#$ OPTION BEGIN (CHECKED): AVATAR
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): AVATAR with GPS
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar_gps.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
 #$ OPTION_GROUP BEGIN: DSHOT
 
 #$ OPTION BEGIN (UNCHECKED): BIDIR 12p - DSHOT300
@@ -99,7 +115,7 @@ set osd_rssi_dbm_alarm = -90
 #$ OPTION_GROUP BEGIN: Modes
 
 #$ OPTION BEGIN (CHECKED): Arm, Turtle, DebugMode, Angle, Buzzer, Erase BlackBox
-#$ INCLUDE: presets/4.4/modes/mguidi_modes_gps.txt
+#$ INCLUDE: presets/4.4/modes/mguidi_modes.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Arm, Turtle, DebugMode, Angle, RTH, Buzzer, Erase BlackBox
@@ -132,22 +148,6 @@ set failsafe_procedure = GPS-RESCUE
 rxfail 3 s 1500
 rxfail 6 s 1500
 
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: OSD
-
-#$ OPTION BEGIN (CHECKED): AVATAR
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): AVATAR with GPS
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar_gps.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Analog
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
