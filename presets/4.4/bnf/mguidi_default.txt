@@ -36,6 +36,24 @@ set pilot_name = DRIVEFPV
 rateprofile 0
 #$ INCLUDE: presets/4.4/rates/mguidi_freestyle_cinematic.txt
 
+#$ OPTION_GROUP BEGIN: QUAD
+
+#$ OPTION BEGIN (UNCHECKED): 3"
+set dyn_idle_min_rpm = 40
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): 5"
+set dyn_idle_min_rpm = 23
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 7"
+set dyn_idle_min_rpm = 20
+#$ OPTION END
+
+
+#$ OPTION_GROUP END
+
+
 #$ OPTION_GROUP BEGIN: OSD
 
 #$ OPTION BEGIN (CHECKED): AVATAR
@@ -46,8 +64,12 @@ rateprofile 0
 #$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar_gps.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog.txt
+#$ OPTION BEGIN (UNCHECKED): Analog PAL
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog_pal.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Analog NTSC
+#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog_ntsc.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -92,21 +114,21 @@ set pid_process_denom = 1
 feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 80
-set osd_rssi_dbm_alarm = -90
+set osd_rssi_dbm_alarm = -100
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Crossfire 150hz
 feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 50
-set osd_rssi_dbm_alarm = -90
+set osd_rssi_dbm_alarm = -100
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Elrs 250hz
 feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 50
-set osd_rssi_dbm_alarm = -90
+set osd_rssi_dbm_alarm = -100
 #$ OPTION END
 
 #$ OPTION_GROUP END

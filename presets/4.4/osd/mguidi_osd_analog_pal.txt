@@ -39,3 +39,4 @@ set osd_sys_goggle_voltage_pos = 256
 set osd_sys_lq_pos = 288
 set osd_stat_bitmask = 147194
 set osd_canvas_height = 13
+set vcd_video_system = PAL
