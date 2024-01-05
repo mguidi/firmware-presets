@@ -1,10 +1,10 @@
-#$ TITLE: mguidi defaults
+#$ TITLE: drivefpv defaults
 #$ FIRMWARE_VERSION: 4.4
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: mguidi, mg, defaults
+#$ KEYWORDS: drivefpv, defaults
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: mguidi defaults
+#$ DESCRIPTION: drivefpv defaults
 
 # feature
 feature -SOFTSERIAL
@@ -34,7 +34,7 @@ set pilot_name = DRIVEFPV
 
 
 rateprofile 0
-#$ INCLUDE: presets/4.4/rates/mguidi_freestyle_cinematic.txt
+#$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
 
 #$ OPTION_GROUP BEGIN: QUAD
 
@@ -57,19 +57,19 @@ set dyn_idle_min_rpm = 20
 #$ OPTION_GROUP BEGIN: OSD
 
 #$ OPTION BEGIN (CHECKED): AVATAR
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar.txt
+#$ INCLUDE: presets/4.4/osd/drivefpv_osd_avatar.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): AVATAR with GPS
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_avatar_gps.txt
+#$ INCLUDE: presets/4.4/osd/drivefpv_osd_avatar_gps.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog PAL
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog_pal.txt
+#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_pal.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Analog NTSC
-#$ INCLUDE: presets/4.4/osd/mguidi_osd_analog_ntsc.txt
+#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_ntsc.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
@@ -137,11 +137,11 @@ set osd_rssi_dbm_alarm = -100
 #$ OPTION_GROUP BEGIN: Modes
 
 #$ OPTION BEGIN (CHECKED): Arm, Turtle, DebugMode, Angle, Buzzer, Erase BlackBox
-#$ INCLUDE: presets/4.4/modes/mguidi_modes.txt
+#$ INCLUDE: presets/4.4/modes/drivefpv_modes.txt
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Arm, Turtle, DebugMode, Angle, RTH, Buzzer, Erase BlackBox
-#$ INCLUDE: presets/4.4/modes/mguidi_modes_gps.txt
+#$ INCLUDE: presets/4.4/modes/drivefpv_modes_gps.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
