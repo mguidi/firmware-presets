@@ -1,10 +1,11 @@
-#$ TITLE: mguidi mode
+#$ TITLE: drivefpv mode
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: mguidi, mg, mode, modes, aux, switch
+#$ KEYWORDS: drivefpv, mode, modes, aux, switch
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: mguidi mode
+#$ DESCRIPTION: drivefpv mode
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
 aux 0 0 0 1900 2100 0 0

@@ -310,6 +310,7 @@
       "divimath",
       "DJI",
       "dominator",
+      "drivefpv",
       "DShot telemetry",
       "eachine",
       "ELRS",
@@ -382,8 +383,6 @@
       "Marek",
       "mck",
       "meteor",
-      "mg",
-      "mguidi",
       "MinChan",
       "MM",
       "mode",
@@ -3867,17 +3866,16 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/bnf/mguidi_default.txt",
-      "hash": "7896b72c0e378dcbcedfbb5602e6cd34a988f8d8629f67d11563094497843fdf",
-      "title": "mguidi defaults",
+      "fullPath": "presets/4.4/bnf/drivefpv_default.txt",
+      "hash": "0b42494506cff6e6e992dac5159a74b5e10451341fb40014b47033e23dde4d67",
+      "title": "drivefpv defaults",
       "firmware_version": [
         "4.4"
       ],
       "category": "BNF",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "defaults"
       ],
       "author": "Marco Guidi",
@@ -3907,17 +3905,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/modes/mguidi_modes.txt",
-      "hash": "c7bb0bb25c1eeae2ef748df77304041ce12ef3a288f62d8b6fd49b63abfacf16",
-      "title": "mguidi mode",
+      "fullPath": "presets/4.4/modes/drivefpv_modes.txt",
+      "hash": "a7e28e0f927996236e6d7c6a5e2f11dd689ce56f61a2840673193a662856a0fc",
+      "title": "drivefpv mode",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "mode",
         "modes",
         "aux",
@@ -3927,17 +3925,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/modes/mguidi_modes_gps.txt",
-      "hash": "bcae150268ffde3250da42ccf637ce062107327633c3d015dd3467ff02d37f34",
-      "title": "mguidi mode gps rescue",
+      "fullPath": "presets/4.4/modes/drivefpv_modes_gps.txt",
+      "hash": "1a986397bc6bee055c534f800c5e83f26dfd2049fd66050b27e65f7318ac1f44",
+      "title": "drivefpv mode gps rescue",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "mode",
         "modes",
         "aux",
@@ -3981,17 +3979,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/mguidi_osd_analog_ntsc.txt",
-      "hash": "83f965cb46b99a7e136de630e47623ea89ba9a6acfd8c68e6aee1d6501d4a2bc",
-      "title": "mguidi osd analog",
+      "fullPath": "presets/4.4/osd/drivefpv_osd_analog_ntsc.txt",
+      "hash": "fbaaff1380b3672d85a61766e21293e0a27a1a20a090bf341d69c902af894ebe",
+      "title": "drivefpv osd analog NTSC",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "osd",
         "analog"
       ],
@@ -3999,17 +3997,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/mguidi_osd_analog_pal.txt",
-      "hash": "f282e8388122d6f756426ec06d20fa139f74958244e0eb6f8774ce527d9534dd",
-      "title": "mguidi osd analog",
+      "fullPath": "presets/4.4/osd/drivefpv_osd_analog_pal.txt",
+      "hash": "11f0be87a8647ee38e86af9d68262731a88cb3d3d43570fd0945671109bdc40f",
+      "title": "drivefpv osd analog PAL",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "osd",
         "analog"
       ],
@@ -4017,17 +4015,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/mguidi_osd_avatar.txt",
-      "hash": "f6638266617b0d153c8de00d99f297cc9321d7a49f39f80871eb85ae5d5b6d9a",
-      "title": "mguidi osd avatar",
+      "fullPath": "presets/4.4/osd/drivefpv_osd_avatar.txt",
+      "hash": "a88f56ba8a5295c7527dbfa80d2c3462419e97de54059e2b494e6efee80702cb",
+      "title": "drivefpv osd avatar",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "osd",
         "avatar"
       ],
@@ -4035,17 +4033,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/osd/mguidi_osd_avatar_gps.txt",
-      "hash": "1c4d1ab9425dde77f44b5c9e71d86a8778497bf0d68d5fe9870ada26119a791a",
-      "title": "mguidi osd avatar gps",
+      "fullPath": "presets/4.4/osd/drivefpv_osd_avatar_gps.txt",
+      "hash": "9d5a12765d2fe784ea6f880f343a89f20602c1815d17684a52685e3626ea3cb2",
+      "title": "drivefpv osd avatar gps",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "osd",
         "avatar",
         "gps"
@@ -4180,17 +4178,17 @@
       "priority": 10000
     },
     {
-      "fullPath": "presets/4.4/rates/mguidi_freestyle_cinematic.txt",
-      "hash": "159254455948a30dbe688037e4c983f3330673d45ac559bd1d31c817b005d5f8",
-      "title": "mguidi rates freestyle cinematic",
+      "fullPath": "presets/4.4/rates/drivefpv_freestyle_cinematic.txt",
+      "hash": "3f1a696075b10278fb67301fcae55895109501ffce3159608cdcc1e5eb7ed86b",
+      "title": "drivefpv rates freestyle cinematic",
       "firmware_version": [
-        "4.4"
+        "4.4",
+        "4.5"
       ],
       "category": "RATES",
       "status": "COMMUNITY",
       "keywords": [
-        "mguidi",
-        "mg",
+        "drivefpv",
         "rates"
       ],
       "author": "Marco Guidi",
@@ -5052,6 +5050,22 @@
       "author": "sugarK",
       "force_options_review": true,
       "priority": 1000000
+    },
+    {
+      "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
+      "hash": "9c4a3386d08deb6a18f65e4cb5d5a08e0963f2464e808bd6d08839478f3259a0",
+      "title": "drivefpv defaults",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "defaults"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
     },
     {
       "fullPath": "presets/4.5/filters/basic_no_rpm_clean.txt",

@@ -1,10 +1,11 @@
-#$ TITLE: mguidi rates freestyle cinematic
+#$ TITLE: drivefpv rates freestyle cinematic
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: mguidi, mg, rates
+#$ KEYWORDS: drivefpv, rates
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: rates by mguidi.
+#$ DESCRIPTION: rates by drivefpv.
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
 set rates_type = ACTUAL
