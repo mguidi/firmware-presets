@@ -1,10 +1,11 @@
-#$ TITLE: mguidi mode gps rescue
+#$ TITLE: drivefpv mode gps rescue
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: MODES
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: mguidi, mg, mode, modes, aux, switch
+#$ KEYWORDS: drivefpv, mode, modes, aux, switch
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: mguidi mode
+#$ DESCRIPTION: drivefpv mode
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
 

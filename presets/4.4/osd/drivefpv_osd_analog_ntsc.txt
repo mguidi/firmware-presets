@@ -1,10 +1,11 @@
-#$ TITLE: mguidi osd analog
+#$ TITLE: drivefpv osd analog NTSC
 #$ FIRMWARE_VERSION: 4.4
+#$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
-#$ KEYWORDS: mguidi, mg, osd, analog
+#$ KEYWORDS: drivefpv, osd, analog
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: mguidi osd values for analog
+#$ DESCRIPTION: drivefpv osd values for analog
 #$ INCLUDE: presets/4.3/osd/defaults.txt
 
 set osd_warn_bitmask = 57343
