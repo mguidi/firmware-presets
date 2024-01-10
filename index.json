@@ -5053,7 +5053,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "9c4a3386d08deb6a18f65e4cb5d5a08e0963f2464e808bd6d08839478f3259a0",
+      "hash": "e68a7127852f779fa3b0a67c2c899db266d8a64e41d42bf405351ca004c6f323",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
@@ -5320,6 +5320,24 @@
         "reset"
       ],
       "author": "Betaflight",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/filters/drivefpv_clean_build_5.txt",
+      "hash": "3c4e70312bf8525b2f7dc0f00e090c32dc129c6695fe1274d472b1260ec7d892",
+      "title": "4.5 Filter settings for CLEAN build with RPM FILTERING.",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "filter",
+        "filters",
+        "clean"
+      ],
+      "author": "Marco Guidi",
       "priority": 100
     },
     {
