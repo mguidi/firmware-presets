@@ -24,7 +24,6 @@ set small_angle = 180
 set yaw_motors_reversed = ON
 set deadband = 1
 set yaw_deadband = 1
-set debug_mode = GYRO_SCALED
 set vbat_warning_cell_voltage = 360
 set mag_hardware = NONE
 set baro_hardware = NONE
@@ -34,10 +33,18 @@ set pilot_name = DRIVEFPV
 set angle_earth_ref = 0
 set tpa_rate = 65
 set tpa_breakpoint = 1750
+set debug_mode = GYRO_SCALED
+set blackbox_sample_rate = 1/2
 
 
 rateprofile 0
 #$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
+
+
+#$ OPTION BEGIN (CHECKED): Reverse esc
+set motor_output_reordering = 3,2,1,0,4,5,6,7
+#$ OPTION END
+
 
 #$ OPTION_GROUP BEGIN: QUAD
 
@@ -117,6 +124,13 @@ set pid_process_denom = 1
 
 #$ OPTION_GROUP END
 
+#$ OPTION_GROUP BEGIN: Filters
+
+#$ OPTION BEGIN (CHECKED): Clean build 5"
+#$ INCLUDE: presets/4.5/filters/drivefpv_clean_build_5.txt
+#$ OPTION END
+
+#$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Receiver
 
