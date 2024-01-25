@@ -41,23 +41,30 @@ rateprofile 0
 #$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
 
 
+#$ OPTION_GROUP BEGIN: ESC
+
 #$ OPTION BEGIN (CHECKED): Reverse esc
 set motor_output_reordering = 3,2,1,0,4,5,6,7
 #$ OPTION END
 
+#$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: QUAD
 
 #$ OPTION BEGIN (UNCHECKED): 3"
-set dyn_idle_min_rpm = 40
+set dyn_idle_min_rpm = 50
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3.5"
+set dyn_idle_min_rpm = 45
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): 5"
-set dyn_idle_min_rpm = 23
+set dyn_idle_min_rpm = 30
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): 7"
-set dyn_idle_min_rpm = 20
+set dyn_idle_min_rpm = 21
 #$ OPTION END
 
 
@@ -138,14 +145,14 @@ set pid_process_denom = 1
 feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 80
-set osd_rssi_dbm_alarm = -100
+set osd_rssi_dbm_alarm = -111
 #$ OPTION END
 
 #$ OPTION BEGIN (UNCHECKED): Crossfire 150hz
 feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 50
-set osd_rssi_dbm_alarm = -100
+set osd_rssi_dbm_alarm = -104
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): Elrs 250hz
@@ -153,6 +160,13 @@ feature RX_SERIAL
 set serialrx_provider = CRSF
 set osd_link_quality_alarm = 50
 set osd_rssi_dbm_alarm = -100
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Elrs 500hz
+feature RX_SERIAL
+set serialrx_provider = CRSF
+set osd_link_quality_alarm = 50
+set osd_rssi_dbm_alarm = -96
 #$ OPTION END
 
 #$ OPTION_GROUP END
