@@ -3906,7 +3906,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/drivefpv_modes.txt",
-      "hash": "a7e28e0f927996236e6d7c6a5e2f11dd689ce56f61a2840673193a662856a0fc",
+      "hash": "099e17dea3b33dfd4ced6bbe25f62c3102c879d37a6c4c6487f0de39fd210424",
       "title": "drivefpv mode",
       "firmware_version": [
         "4.4",
@@ -3926,7 +3926,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/drivefpv_modes_gps.txt",
-      "hash": "1a986397bc6bee055c534f800c5e83f26dfd2049fd66050b27e65f7318ac1f44",
+      "hash": "3ede2516daea0be9a714db5146541ee6bb7702a97bbaf93aa8fb1424cce539a2",
       "title": "drivefpv mode gps rescue",
       "firmware_version": [
         "4.4",
@@ -5053,7 +5053,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "e68a7127852f779fa3b0a67c2c899db266d8a64e41d42bf405351ca004c6f323",
+      "hash": "9f416fd6af3ea898f2c18ab02c078f893b4209f760b79e56717d22cc8b7a6224",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
