@@ -160,11 +160,11 @@ set osd_rssi_dbm_alarm = -100
 
 #$ OPTION_GROUP BEGIN: Modes
 
-#$ OPTION BEGIN (CHECKED): Arm, Turtle, DebugMode, Angle, Buzzer, Erase BlackBox
+#$ OPTION BEGIN (CHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, Buzzer
 #$ INCLUDE: presets/4.4/modes/drivefpv_modes.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Arm, Turtle, DebugMode, Angle, RTH, Buzzer, Erase BlackBox
+#$ OPTION BEGIN (UNCHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, RTH, Buzzer
 #$ INCLUDE: presets/4.4/modes/drivefpv_modes_gps.txt
 #$ OPTION END
 
