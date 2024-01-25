@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: drivefpv, filter, filters, clean
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: 5" Clean Build Filter
+#$ DESCRIPTION: drivefpv 5" Clean Build Filter
 
 
 #$ INCLUDE: presets/4.5/filters/defaults.txt

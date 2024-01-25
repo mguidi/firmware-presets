@@ -5053,7 +5053,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "9f416fd6af3ea898f2c18ab02c078f893b4209f760b79e56717d22cc8b7a6224",
+      "hash": "26d95c54f6040e8f72924ed30b8506916e57d86eaf872262b2aa367cb74dc2ba",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
@@ -5324,7 +5324,7 @@
     },
     {
       "fullPath": "presets/4.5/filters/drivefpv_clean_build_5.txt",
-      "hash": "3c4e70312bf8525b2f7dc0f00e090c32dc129c6695fe1274d472b1260ec7d892",
+      "hash": "80302e6725c4bf8cd2f2273fe365e3d3c3a485c3886020302f53e14272975020",
       "title": "4.5 Filter settings for CLEAN build with RPM FILTERING.",
       "firmware_version": [
         "4.5"
