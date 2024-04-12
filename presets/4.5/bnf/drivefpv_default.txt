@@ -60,6 +60,7 @@ set dyn_idle_min_rpm = 45
 #$ OPTION END
 
 #$ OPTION BEGIN (CHECKED): 5"
+set throttle_boost = 0
 set dyn_idle_min_rpm = 30
 #$ OPTION END
 
@@ -87,6 +88,10 @@ set dyn_idle_min_rpm = 21
 
 #$ OPTION BEGIN (UNCHECKED): Analog NTSC
 #$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_ntsc.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): DJI
+#$ INCLUDE: presets/4.4/osd/drivefpv_osd_dji.txt
 #$ OPTION END
 
 #$ OPTION_GROUP END
