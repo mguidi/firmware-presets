@@ -4052,6 +4052,24 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.4/osd/drivefpv_osd_dji.txt",
+      "hash": "73ffdc9d1849a70a2de805e570424d79b015b19beea3a4bb7cc3393f5ddb6c68",
+      "title": "drivefpv osd avatar",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "osd",
+        "dji"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.4/other/100-euro-fpv-tune.txt",
       "hash": "5e2b1d2fd1e9dea96eeaece8649eacc03e81b6815a95a3330969a42d37b2b0b8",
       "title": "100-EURO-FPV",
@@ -5053,7 +5071,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "26d95c54f6040e8f72924ed30b8506916e57d86eaf872262b2aa367cb74dc2ba",
+      "hash": "1245b5802b629346a5d30d48111989ff9d0becabddce5b6d378fc550f753df15",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
