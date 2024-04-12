@@ -40,38 +40,6 @@ set blackbox_sample_rate = 1/2
 rateprofile 0
 #$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
 
-
-#$ OPTION_GROUP BEGIN: ESC
-
-#$ OPTION BEGIN (CHECKED): Reverse esc
-set motor_output_reordering = 3,2,1,0,4,5,6,7
-#$ OPTION END
-
-#$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: QUAD
-
-#$ OPTION BEGIN (UNCHECKED): 3"
-set dyn_idle_min_rpm = 50
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 3.5"
-set dyn_idle_min_rpm = 45
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): 5"
-set throttle_boost = 0
-set dyn_idle_min_rpm = 30
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 7"
-set dyn_idle_min_rpm = 21
-#$ OPTION END
-
-
-#$ OPTION_GROUP END
-
-
 #$ OPTION_GROUP BEGIN: OSD
 
 #$ OPTION BEGIN (CHECKED): AVATAR
@@ -143,6 +111,38 @@ set pid_process_denom = 1
 #$ OPTION END
 
 #$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: ESC
+
+#$ OPTION BEGIN (CHECKED): Reverse esc
+set motor_output_reordering = 3,2,1,0,4,5,6,7
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: QUAD
+
+#$ OPTION BEGIN (UNCHECKED): 3"
+set dyn_idle_min_rpm = 50
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3.5"
+set dyn_idle_min_rpm = 45
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): 5"
+set throttle_boost = 0
+set dyn_idle_min_rpm = 30
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 7"
+set dyn_idle_min_rpm = 21
+#$ OPTION END
+
+
+#$ OPTION_GROUP END
+
 
 #$ OPTION_GROUP BEGIN: Receiver
 
