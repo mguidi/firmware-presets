@@ -90,7 +90,7 @@ set dyn_idle_min_rpm = 21
 #$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_ntsc.txt
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): DJI
+#$ OPTION BEGIN (UNCHECKED): DJI
 #$ INCLUDE: presets/4.4/osd/drivefpv_osd_dji.txt
 #$ OPTION END
 
