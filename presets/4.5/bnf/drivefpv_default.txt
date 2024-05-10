@@ -30,7 +30,6 @@ set baro_hardware = NONE
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
 set pilot_name = DRIVEFPV
-set angle_earth_ref = 0
 set tpa_rate = 65
 set tpa_breakpoint = 1750
 set debug_mode = GYRO_SCALED
@@ -66,35 +65,35 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: DSHOT
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - DSHOT300
+#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F4 DSHOT300
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_poles = 12
 set pid_process_denom = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - DSHOT600
+#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F7 DSHOT600
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT600
 set motor_poles = 12
 set pid_process_denom = 1
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - DSHOT300
+#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F4 DSHOT300
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_poles = 14
 set pid_process_denom = 2
 #$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - DSHOT300 BMI270
+#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F7 DSHOT300 BMI270
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT300
 set motor_poles = 14
 set pid_process_denom = 1
 #$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): BIDIR 14p - DSHOT600
+#$ OPTION BEGIN (CHECKED): BIDIR 14p - F7 DSHOT600
 set dshot_bidir = ON
 set motor_pwm_protocol = DSHOT600
 set motor_poles = 14
@@ -106,8 +105,24 @@ set pid_process_denom = 1
 
 #$ OPTION_GROUP BEGIN: Filters
 
-#$ OPTION BEGIN (CHECKED): Clean build 5"
-#$ INCLUDE: presets/4.5/filters/drivefpv_clean_build_5.txt
+#$ OPTION BEGIN (UNCHECKED): Clean build
+set rpm_filter_q = 650
+set rpm_filter_weights = 100,0,80
+
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf2_static_hz = 0
+
+set dyn_notch_count = 1
+set dyn_notch_q = 400
+set dyn_notch_max_hz = 500
+
+set dterm_lpf1_dyn_min_hz = 80
+set dterm_lpf1_dyn_max_hz = 110
+set dterm_lpf1_dyn_expo = 7
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf2_static_hz = 0
+set simplified_dterm_filter = OFF
 #$ OPTION END
 
 #$ OPTION_GROUP END
