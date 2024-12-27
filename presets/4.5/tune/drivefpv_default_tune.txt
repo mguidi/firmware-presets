@@ -1,0 +1,55 @@
+#$ TITLE: drivefpv defaults tune
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: drivefpv, defaults, tune
+#$ AUTHOR: Marco Guidi
+#$ DESCRIPTION: drivefpv defaults tune
+
+
+#$ OPTION_GROUP BEGIN: Filters
+
+#$ OPTION BEGIN (UNCHECKED): Clean build
+set rpm_filter_q = 650
+set rpm_filter_weights = 100,0,80
+
+set gyro_lpf1_static_hz = 0
+set gyro_lpf1_dyn_min_hz = 0
+set gyro_lpf2_static_hz = 0
+
+set dyn_notch_count = 1
+set dyn_notch_q = 400
+set dyn_notch_max_hz = 500
+
+set dterm_lpf1_dyn_min_hz = 80
+set dterm_lpf1_dyn_max_hz = 110
+set dterm_lpf1_dyn_expo = 7
+set dterm_lpf1_type = BIQUAD
+set dterm_lpf2_static_hz = 0
+set simplified_dterm_filter = OFF
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: QUAD
+
+#$ OPTION BEGIN (UNCHECKED): 3"
+set dyn_idle_min_rpm = 50
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3.5"
+set dyn_idle_min_rpm = 45
+#$ OPTION END
+
+#$ OPTION BEGIN (CHECKED): 5"
+set throttle_boost = 0
+set dyn_idle_min_rpm = 30
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 7"
+set dyn_idle_min_rpm = 21
+#$ OPTION END
+
+#$ OPTION_GROUP END
+
