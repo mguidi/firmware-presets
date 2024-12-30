@@ -5637,7 +5637,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/drivefpv_default_tune.txt",
-      "hash": "b42f0f21e11dec55990de61e5e15d2bc3b56149f53b2be372edf7edc508430ff",
+      "hash": "1511259ce3d595cc8a2e9d2d948aa93b56584fdcb5dc3e64486c762289951ea4",
       "title": "drivefpv defaults tune",
       "firmware_version": [
         "4.5"
