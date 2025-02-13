@@ -5915,7 +5915,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "c639a0e0dd588fe207c2e9de4c0ab8d3d59b1ed2143ab24229d198075b8bffff",
+      "hash": "9fbde17396b3bf24e49d3bb2a45c47688f8d02d2888fdb84741f656b056a757b",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
