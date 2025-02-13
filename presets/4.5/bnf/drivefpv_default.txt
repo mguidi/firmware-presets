@@ -6,6 +6,8 @@
 #$ AUTHOR: Marco Guidi
 #$ DESCRIPTION: drivefpv defaults
 
+set dyn_idle_min_rpm = 50
+
 # feature
 feature -SOFTSERIAL
 feature TELEMETRY
