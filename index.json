@@ -5915,7 +5915,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "9fbde17396b3bf24e49d3bb2a45c47688f8d02d2888fdb84741f656b056a757b",
+      "hash": "7a9f89e79200d696a6d1bb5e1a57b230ea0119fa44f2e50c27f4c3b6f9e6b516",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
@@ -6533,9 +6533,9 @@
       "priority": 100
     },
     {
-      "fullPath": "presets/4.5/filters/drivefpv_clean_build.txt",
-      "hash": "773b7707d43bd026fd9b02b1dd12628e9909e4e9e1a2f1e2e090415a83f68ddb",
-      "title": "drivefpv clean build filters",
+      "fullPath": "presets/4.5/filters/drivefpv_clean_build_5_filters.txt",
+      "hash": "9319b0865f185ac8bb0b122f77606e0fc79d4b0b47e7c2a68929e73e9a2379ea",
+      "title": "drivefpv clean build 5 inch filters",
       "firmware_version": [
         "4.5"
       ],
@@ -7399,6 +7399,23 @@
         "filters"
       ],
       "author": "Betaflight",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/drivefpv_clean_build_5_tune.txt",
+      "hash": "260645dbeab5d1660632abc2e12bc3283e4e0141545a8bc1a021d096ca24e3f4",
+      "title": "drivefpv clean build 5 inch tune",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "clean",
+        "tune"
+      ],
+      "author": "Marco Guidi",
       "priority": 1000000000000
     },
     {
