@@ -6,8 +6,6 @@
 #$ AUTHOR: Marco Guidi
 #$ DESCRIPTION: drivefpv clean build 5 inch filters
 
-#$ INCLUDE: presets/4.5/filters/defaults.txt
-
 set rpm_filter_q = 650
 set rpm_filter_weights = 100,50,80
 
