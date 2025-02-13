@@ -1,0 +1,14 @@
+#$ TITLE: drivefpv clean build 5 inch tune
+#$ FIRMWARE_VERSION: 4.5
+#$ CATEGORY: TUNE
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: drivefpv, clean, tune
+#$ AUTHOR: Marco Guidi
+#$ DESCRIPTION: drivefpv clean build 5 inch tune
+
+#$ INCLUDE: presets/4.5/tune/defaults.txt
+
+set simplified_master_multiplier = 145
+set simplified_d_gain = 75
+set simplified_dmax_gain = 0
+set simplified_feedforward_gain = 65
