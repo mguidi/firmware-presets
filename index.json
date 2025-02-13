@@ -4131,22 +4131,6 @@
       "priority": 1000000
     },
     {
-      "fullPath": "presets/4.4/bnf/drivefpv_default.txt",
-      "hash": "0b42494506cff6e6e992dac5159a74b5e10451341fb40014b47033e23dde4d67",
-      "title": "drivefpv defaults",
-      "firmware_version": [
-        "4.4"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "defaults"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.4/filters/aos_rc/aos_3.5_filters.txt",
       "hash": "7e6093be6d2aec003d2e8aa2d5662c2685fc89ee8ec1f31bf4b637913acc9d30",
       "title": "AOS 3.5 Filters",
@@ -5931,7 +5915,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "0c5b09da9840262940400e8d1c76796df89d76036cd62db8fe3b0ec76e426eed",
+      "hash": "c639a0e0dd588fe207c2e9de4c0ab8d3d59b1ed2143ab24229d198075b8bffff",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
