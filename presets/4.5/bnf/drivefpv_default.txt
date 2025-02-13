@@ -40,194 +40,159 @@ rateprofile 0
 #$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
 
 #$ OPTION_GROUP BEGIN: OSD
+	#$ OPTION BEGIN (CHECKED): AVATAR
+		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_avatar.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): AVATAR
-#$ INCLUDE: presets/4.4/osd/drivefpv_osd_avatar.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): AVATAR with GPS
+		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_avatar_gps.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): AVATAR with GPS
-#$ INCLUDE: presets/4.4/osd/drivefpv_osd_avatar_gps.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Analog PAL
+		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_pal.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog PAL
-#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_pal.txt
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Analog NTSC
+		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_ntsc.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Analog NTSC
-#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_ntsc.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): DJI
-#$ INCLUDE: presets/4.4/osd/drivefpv_osd_dji.txt
-#$ OPTION END
-
+	#$ OPTION BEGIN (UNCHECKED): DJI
+		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_dji.txt
+	#$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: DSHOT
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F4 DSHOT300
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 12
+		set pid_process_denom = 2
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F4 DSHOT300
-set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT300
-set motor_poles = 12
-set pid_process_denom = 2
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F7 DSHOT600
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT600
+		set motor_poles = 12
+		set pid_process_denom = 1
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F7 DSHOT600
-set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT600
-set motor_poles = 12
-set pid_process_denom = 1
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F4 DSHOT300
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 14
+		set pid_process_denom = 2
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F4 DSHOT300
-set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT300
-set motor_poles = 14
-set pid_process_denom = 2
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F7 DSHOT300 BMI270
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 14
+		set pid_process_denom = 1
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F7 DSHOT300 BMI270
-set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT300
-set motor_poles = 14
-set pid_process_denom = 1
-#$ OPTION END
-
-#$ OPTION BEGIN (CHECKED): BIDIR 14p - F7 DSHOT600
-set dshot_bidir = ON
-set motor_pwm_protocol = DSHOT600
-set motor_poles = 14
-set pid_process_denom = 1
-#$ OPTION END
-
-
+	#$ OPTION BEGIN (CHECKED): BIDIR 14p - F7 DSHOT600
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT600
+		set motor_poles = 14
+		set pid_process_denom = 1
+	#$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: Filters
-
-#$ OPTION BEGIN (UNCHECKED): Clean build
-set rpm_filter_q = 650
-set rpm_filter_weights = 100,0,80
-
-set gyro_lpf1_static_hz = 0
-set gyro_lpf1_dyn_min_hz = 0
-set gyro_lpf2_static_hz = 0
-
-set dyn_notch_count = 1
-set dyn_notch_q = 400
-set dyn_notch_max_hz = 500
-
-set dterm_lpf1_dyn_min_hz = 80
-set dterm_lpf1_dyn_max_hz = 110
-set dterm_lpf1_dyn_expo = 7
-set dterm_lpf1_type = BIQUAD
-set dterm_lpf2_static_hz = 0
-set simplified_dterm_filter = OFF
-#$ OPTION END
-
+	#$ OPTION BEGIN (UNCHECKED): Clean build
+		#$ INCLUDE: presets/4.5/filters/drivefpv_clean_build.txt
+	#$ OPTION END
 #$ OPTION_GROUP END
 
 
 #$ OPTION_GROUP BEGIN: ESC
-
-#$ OPTION BEGIN (CHECKED): Reverse esc
-set motor_output_reordering = 3,2,1,0,4,5,6,7
-#$ OPTION END
-
+	#$ OPTION BEGIN (CHECKED): Reverse esc
+		set motor_output_reordering = 3,2,1,0,4,5,6,7
+	#$ OPTION END
 #$ OPTION_GROUP END
 
 #$ OPTION_GROUP BEGIN: QUAD
+	#$ OPTION BEGIN (UNCHECKED): 3"
+		set dyn_idle_min_rpm = 50
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3"
-set dyn_idle_min_rpm = 50
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): 3.5"
+		set dyn_idle_min_rpm = 45
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): 3.5"
-set dyn_idle_min_rpm = 45
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): 5"
+		set throttle_boost = 0
+		set dyn_idle_min_rpm = 30
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): 5"
-set throttle_boost = 0
-set dyn_idle_min_rpm = 30
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): 7"
-set dyn_idle_min_rpm = 21
-#$ OPTION END
-
-
+	#$ OPTION BEGIN (UNCHECKED): 7"
+		set dyn_idle_min_rpm = 21
+	#$ OPTION END
 #$ OPTION_GROUP END
 
 
 #$ OPTION_GROUP BEGIN: Receiver
+	#$ OPTION BEGIN (UNCHECKED): Crossfire 50hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 80
+		set osd_rssi_dbm_alarm = -111
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Crossfire 50hz
-feature RX_SERIAL
-set serialrx_provider = CRSF
-set osd_link_quality_alarm = 80
-set osd_rssi_dbm_alarm = -111
-#$ OPTION END
+	#$ OPTION BEGIN (UNCHECKED): Crossfire 150hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 50
+		set osd_rssi_dbm_alarm = -104
+	#$ OPTION END
 
-#$ OPTION BEGIN (UNCHECKED): Crossfire 150hz
-feature RX_SERIAL
-set serialrx_provider = CRSF
-set osd_link_quality_alarm = 50
-set osd_rssi_dbm_alarm = -104
-#$ OPTION END
+	#$ OPTION BEGIN (CHECKED): Elrs 250hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 50
+		set osd_rssi_dbm_alarm = -100
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Elrs 250hz
-feature RX_SERIAL
-set serialrx_provider = CRSF
-set osd_link_quality_alarm = 50
-set osd_rssi_dbm_alarm = -100
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Elrs 500hz
-feature RX_SERIAL
-set serialrx_provider = CRSF
-set osd_link_quality_alarm = 50
-set osd_rssi_dbm_alarm = -96
-#$ OPTION END
-
+	#$ OPTION BEGIN (UNCHECKED): Elrs 500hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 50
+		set osd_rssi_dbm_alarm = -96
+	#$ OPTION END
 #$ OPTION_GROUP END
 
 
 #$ OPTION_GROUP BEGIN: Modes
+	#$ OPTION BEGIN (CHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, Buzzer
+		#$ INCLUDE: presets/4.4/modes/drivefpv_modes.txt
+	#$ OPTION END
 
-#$ OPTION BEGIN (CHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, Buzzer
-#$ INCLUDE: presets/4.4/modes/drivefpv_modes.txt
-#$ OPTION END
-
-#$ OPTION BEGIN (UNCHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, RTH, Buzzer
-#$ INCLUDE: presets/4.4/modes/drivefpv_modes_gps.txt
-#$ OPTION END
-
+	#$ OPTION BEGIN (UNCHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, RTH, Buzzer
+		#$ INCLUDE: presets/4.4/modes/drivefpv_modes_gps.txt
+	#$ OPTION END
 #$ OPTION_GROUP END
 
 
 #$ OPTION_GROUP BEGIN: GPS
-
-#$ OPTION BEGIN (UNCHECKED): Flywoo GM8-5883 V1.0
-feature GPS
-set gps_provider = UBLOX
-set gps_sbas_mode = EGNOS
-set gps_auto_baud = ON
-set gps_auto_config = ON
-set gps_ublox_use_galileo = ON
-set gps_set_home_point_once = ON
-set gps_rescue_return_alt = 20
-set gps_rescue_ground_speed = 1000
-set gps_rescue_pitch_angle_max = 60
-set gps_rescue_descent_dist = 30
-set gps_rescue_throttle_max = 1800
-set gps_rescue_throttle_hover = 1350
-set gps_rescue_allow_arming_without_fix = ON
-set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
-set gps_rescue_use_mag = OFF
-set failsafe_procedure = GPS-RESCUE
-rxfail 3 s 1500
-rxfail 6 s 1500
-
-#$ OPTION END
-
+	#$ OPTION BEGIN (UNCHECKED): Flywoo GM8-5883 V1.0
+		feature GPS
+		set gps_provider = UBLOX
+		set gps_sbas_mode = EGNOS
+		set gps_auto_baud = ON
+		set gps_auto_config = ON
+		set gps_ublox_use_galileo = ON
+		set gps_set_home_point_once = ON
+		set gps_rescue_return_alt = 20
+		set gps_rescue_ground_speed = 1000
+		set gps_rescue_pitch_angle_max = 60
+		set gps_rescue_descent_dist = 30
+		set gps_rescue_throttle_max = 1800
+		set gps_rescue_throttle_hover = 1350
+		set gps_rescue_allow_arming_without_fix = ON
+		set gps_rescue_sanity_checks = RESCUE_SANITY_FS_ONLY
+		set gps_rescue_use_mag = OFF
+		set failsafe_procedure = GPS-RESCUE
+		rxfail 3 s 1500
+		rxfail 6 s 1500
+	#$ OPTION END
 #$ OPTION_GROUP END
