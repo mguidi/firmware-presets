@@ -1,10 +1,12 @@
-#$ TITLE: drivefpv clean build filters
+#$ TITLE: drivefpv clean build 5 inch filters
 #$ FIRMWARE_VERSION: 4.5
 #$ CATEGORY: FILTERS
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: drivefpv, clean, filters
 #$ AUTHOR: Marco Guidi
-#$ DESCRIPTION: drivefpv clean build filters
+#$ DESCRIPTION: drivefpv clean build 5 inch filters
+
+#$ INCLUDE: presets/4.5/filters/defaults.txt
 
 set rpm_filter_q = 650
 set rpm_filter_weights = 100,50,80

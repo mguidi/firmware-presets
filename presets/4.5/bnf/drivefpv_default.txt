@@ -98,9 +98,10 @@ rateprofile 0
 	#$ OPTION END
 #$ OPTION_GROUP END
 
-#$ OPTION_GROUP BEGIN: Filters
+#$ OPTION_GROUP BEGIN: Tune
 	#$ OPTION BEGIN (UNCHECKED): Clean build
-		#$ INCLUDE: presets/4.5/filters/drivefpv_clean_build.txt
+		#$ INCLUDE: presets/4.5/filters/drivefpv_clean_build_5_filters.txt
+		#$ INCLUDE: presets/4.5/tune/drivefpv_clean_build_5_tune.txt
 	#$ OPTION END
 #$ OPTION_GROUP END
 
