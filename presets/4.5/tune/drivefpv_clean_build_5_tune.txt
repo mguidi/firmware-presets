@@ -8,6 +8,19 @@
 
 #$ INCLUDE: presets/4.5/tune/defaults.txt
 
+set p_pitch = 68
+set i_pitch = 121
+set d_pitch = 36
+set f_pitch = 117
+set p_roll = 65
+set i_roll = 115
+set d_roll = 32
+set f_roll = 113
+set p_yaw = 65
+set i_yaw = 115
+set f_yaw = 113
+set d_min_roll = 32
+set d_min_pitch = 36
 set simplified_master_multiplier = 145
 set simplified_d_gain = 75
 set simplified_dmax_gain = 0
