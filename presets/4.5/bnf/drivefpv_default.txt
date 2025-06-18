@@ -136,15 +136,15 @@ rateprofile 0
 	#$ OPTION BEGIN (UNCHECKED): Crossfire 50hz
 		feature RX_SERIAL
 		set serialrx_provider = CRSF
-		set osd_link_quality_alarm = 80
-		set osd_rssi_dbm_alarm = -111
+		set osd_link_quality_alarm = 70
+		set osd_rssi_dbm_alarm = -100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Crossfire 150hz
 		feature RX_SERIAL
 		set serialrx_provider = CRSF
-		set osd_link_quality_alarm = 50
-		set osd_rssi_dbm_alarm = -104
+		set osd_link_quality_alarm = 40
+		set osd_rssi_dbm_alarm = -100
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): Elrs 250hz
