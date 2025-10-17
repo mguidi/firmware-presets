@@ -1,0 +1,201 @@
+#$ TITLE: drivefpv defaults
+#$ FIRMWARE_VERSION: 2025-12
+#$ CATEGORY: BNF
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: drivefpv, defaults
+#$ AUTHOR: Marco Guidi
+#$ DESCRIPTION: drivefpv defaults
+
+# feature
+feature -SOFTSERIAL
+feature TELEMETRY
+feature OSD
+
+# beeper
+beeper -BAT_CRIT_LOW
+beeper -BAT_LOW
+beeper -ON_USB
+
+# map
+map TAER1234
+
+# master
+set small_angle = 180
+set yaw_motors_reversed = ON
+set deadband = 1
+set yaw_deadband = 1
+set vbat_warning_cell_voltage = 360
+set mag_hardware = NONE
+set baro_hardware = NONE
+set pidsum_limit = 1000
+set pidsum_limit_yaw = 1000
+set pilot_name = DRIVEFPV
+set tpa_rate = 65
+set tpa_breakpoint = 1750
+set debug_mode = GYRO_SCALED
+set blackbox_sample_rate = 1/2
+
+
+rateprofile 0
+#$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
+
+#$ OPTION_GROUP BEGIN: Osd
+	#$ OPTION BEGIN (CHECKED): Avatar
+		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_avatar.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Avatar with Gps
+		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_avatar_gps.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Analog PAL
+		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_analog_pal.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Analog NTSC
+		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_analog_ntsc.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): DJI G2
+		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_dji_g2.txt
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: DSHOT
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F4 DSHOT300
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 12
+		set pid_process_denom = 2
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F7 DSHOT600
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT600
+		set motor_poles = 12
+		set pid_process_denom = 1
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F4 DSHOT300
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 14
+		set pid_process_denom = 2
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F7 DSHOT300 BMI270
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT300
+		set motor_poles = 14
+		set pid_process_denom = 1
+	#$ OPTION END
+
+	#$ OPTION BEGIN (CHECKED): BIDIR 14p - F7 DSHOT600
+		set dshot_bidir = ON
+		set motor_pwm_protocol = DSHOT600
+		set motor_poles = 14
+		set pid_process_denom = 1
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: Tune
+	#$ OPTION BEGIN (UNCHECKED): Clean build
+		#$ INCLUDE: presets/2025-12/filters/drivefpv_clean_build_5_filters.txt
+		#$ INCLUDE: presets/2025-12/tune/drivefpv_clean_build_5_tune.txt
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: ESC
+	#$ OPTION BEGIN (CHECKED): Reverse esc
+		set motor_output_reordering = 3,2,1,0,4,5,6,7
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+#$ OPTION_GROUP BEGIN: QUAD
+	#$ OPTION BEGIN (UNCHECKED): 3
+		set dyn_idle_min_rpm = 50
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): 3.5
+		set dyn_idle_min_rpm = 45
+	#$ OPTION END
+
+	#$ OPTION BEGIN (CHECKED): 5
+		set throttle_boost = 0
+		set dyn_idle_min_rpm = 30
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): 7
+		set dyn_idle_min_rpm = 21
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Receiver
+	#$ OPTION BEGIN (UNCHECKED): Crossfire 50hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 70
+		set osd_rssi_dbm_alarm = -100
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Crossfire 150hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 40
+		set osd_rssi_dbm_alarm = -100
+	#$ OPTION END
+
+	#$ OPTION BEGIN (CHECKED): Elrs 250hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 50
+		set osd_rssi_dbm_alarm = -100
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Elrs 500hz
+		feature RX_SERIAL
+		set serialrx_provider = CRSF
+		set osd_link_quality_alarm = 50
+		set osd_rssi_dbm_alarm = -96
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: Modes
+	#$ OPTION BEGIN (CHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, Buzzer
+		#$ INCLUDE: presets/2025-12/modes/drivefpv_modes.txt
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, RTH, Buzzer
+		#$ INCLUDE: presets/2025-12/modes/drivefpv_modes_gps.txt
+	#$ OPTION END
+#$ OPTION_GROUP END
+
+
+#$ OPTION_GROUP BEGIN: GPS
+	#$ OPTION BEGIN (UNCHECKED): Position Hold without magnetometer
+		set pos_hold_without_mag = ON
+		set gps_rescue_use_mag = OFF
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Position Hold with magnetometer
+		set pos_hold_without_mag = OFF
+		set gps_rescue_use_mag = ONE
+	#$ OPTION END
+
+	#$ OPTION BEGIN (UNCHECKED): Flywoo GM8-5883 V1.0
+		feature GPS
+		set osd_profile = 2
+
+		set gps_provider = UBLOX
+		set gps_sbas_mode = EGNOS
+		set gps_auto_baud = ON
+		set gps_auto_config = ON
+		set gps_ublox_use_galileo = ON
+		set gps_rescue_allow_arming_without_fix = ON
+		set failsafe_procedure = GPS-RESCUE
+		rxfail 3 s 1500
+	#$ OPTION END
+#$ OPTION_GROUP END
