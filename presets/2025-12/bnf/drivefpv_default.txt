@@ -29,14 +29,12 @@ set mag_hardware = NONE
 set baro_hardware = NONE
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
-set tpa_rate = 50
-set tpa_breakpoint = 1550
-set debug_mode = FFT_FREQ
+set pilot_name = DRIVEFPV
+set tpa_rate = 65
+set tpa_breakpoint = 1750
+set debug_mode = GYRO_SCALED
 set blackbox_sample_rate = 1/2
-set angle_limit = 30
-set report_cell_voltage = ON
-set min_check = 1050
-set max_check = 1950
+
 
 rateprofile 0
 #$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
@@ -179,29 +177,25 @@ rateprofile 0
 #$ OPTION_GROUP BEGIN: GPS
 	#$ OPTION BEGIN (UNCHECKED): Position Hold without magnetometer
 		set pos_hold_without_mag = ON
+		set gps_rescue_use_mag = OFF
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Position Hold with magnetometer
 		set pos_hold_without_mag = OFF
+		set gps_rescue_use_mag = ONE
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Flywoo GM8-5883 V1.0
 		feature GPS
 		set osd_profile = 2
+
 		set gps_provider = UBLOX
 		set gps_sbas_mode = EGNOS
 		set gps_auto_baud = ON
-		set gps_ublox_use_galileo = ON
-		set gps_set_home_point_once = ON
 		set gps_auto_config = ON
-		set gps_rescue_initial_climb = 50
-		set gps_rescue_ascend_rate = 1000
-		set gps_rescue_return_alt = 20
-		set gps_rescue_ground_speed = 2100
-		set gps_rescue_max_angle = 50
-		set gps_rescue_allow_arming_without_fix = ON		
+		set gps_ublox_use_galileo = ON
+		set gps_rescue_allow_arming_without_fix = ON
 		set failsafe_procedure = GPS-RESCUE
-		rxfail 3 s 1700
-		rxfail 6 s 1500
+		rxfail 3 s 1500
 	#$ OPTION END
 #$ OPTION_GROUP END

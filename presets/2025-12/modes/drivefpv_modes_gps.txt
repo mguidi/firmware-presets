@@ -7,11 +7,13 @@
 #$ DESCRIPTION: drivefpv mode Arm, Pre-Arm, Turtle, DebugMode, Angle, RTH, Buzzer, Position Hold
 #$ INCLUDE: presets/4.3/modes/defaults.txt
 
+
 aux 0 0 0 1900 2100 0 0
 aux 1 1 2 1400 1600 0 0
-aux 2 11 3 1900 2100 0 0
-aux 3 46 2 1900 2100 0 0
-aux 4 13 4 1900 2100 0 0
-aux 5 26 1 1400 1600 0 0
-aux 6 35 1 1900 2100 0 0
-aux 7 36 5 1900 2100 0 0
+aux 2 55 3 1900 2100 0 0
+aux 3 11 2 1400 1600 0 0
+aux 4 46 2 1900 2100 0 0
+aux 5 13 4 1900 2100 0 0
+aux 6 26 1 1400 2100 0 0
+aux 7 35 1 1900 2100 0 0
+aux 8 36 5 1900 2100 0 0
