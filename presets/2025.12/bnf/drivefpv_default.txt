@@ -1,5 +1,5 @@
 #$ TITLE: drivefpv defaults
-#$ FIRMWARE_VERSION: 2025-12
+#$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: BNF
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: drivefpv, defaults
@@ -37,27 +37,19 @@ set blackbox_sample_rate = 1/2
 
 
 rateprofile 0
-#$ INCLUDE: presets/4.4/rates/drivefpv_freestyle_cinematic.txt
+#$ INCLUDE: presets/2025.12/rates/drivefpv_freestyle_cinematic.txt
 
 #$ OPTION_GROUP BEGIN: Osd
-	#$ OPTION BEGIN (CHECKED): Avatar
-		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_avatar.txt
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): Avatar with Gps
-		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_avatar_gps.txt
+    #$ OPTION BEGIN (CHECKED): Digital HD
+		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_hd.txt.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog PAL
-		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_analog_pal.txt
+		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_analog_pal.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog NTSC
-		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_analog_ntsc.txt
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): DJI G2
-		#$ INCLUDE: presets/2025-12/osd/drivefpv_osd_dji_g2.txt
+		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_analog_ntsc.txt
 	#$ OPTION END
 #$ OPTION_GROUP END
 
@@ -100,8 +92,8 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: Tune
 	#$ OPTION BEGIN (UNCHECKED): Clean build
-		#$ INCLUDE: presets/2025-12/filters/drivefpv_clean_build_5_filters.txt
-		#$ INCLUDE: presets/2025-12/tune/drivefpv_clean_build_5_tune.txt
+		#$ INCLUDE: presets/2025.12/filters/drivefpv_clean_build_5_filters.txt
+		#$ INCLUDE: presets/2025.12/tune/drivefpv_clean_build_5_tune.txt
 	#$ OPTION END
 #$ OPTION_GROUP END
 
@@ -118,7 +110,7 @@ rateprofile 0
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): 3.5
-		set dyn_idle_min_rpm = 45
+		set dyn_idle_min_rpm = 40
 	#$ OPTION END
 
 	#$ OPTION BEGIN (CHECKED): 5
@@ -165,16 +157,26 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: Modes
 	#$ OPTION BEGIN (CHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, Buzzer
-		#$ INCLUDE: presets/2025-12/modes/drivefpv_modes.txt
+		#$ INCLUDE: presets/2025.12/modes/drivefpv_modes.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Arm, Pre-Arm, Turtle, DebugMode, Angle, RTH, Buzzer
-		#$ INCLUDE: presets/2025-12/modes/drivefpv_modes_gps.txt
+		#$ INCLUDE: presets/2025.12/modes/drivefpv_modes_gps.txt
 	#$ OPTION END
 #$ OPTION_GROUP END
 
 
 #$ OPTION_GROUP BEGIN: GPS
+    #$ OPTION BEGIN (CHECKED): Enable Gps
+        feature GPS
+    	set osd_profile = 2
+    	set gps_provider = UBLOX
+        set gps_sbas_mode = EGNOS
+        set gps_auto_baud = ON
+        set gps_auto_config = ON
+        set gps_ublox_use_galileo = ON
+    #$ OPTION END
+
 	#$ OPTION BEGIN (UNCHECKED): Position Hold without magnetometer
 		set pos_hold_without_mag = ON
 		set gps_rescue_use_mag = OFF
@@ -185,15 +187,7 @@ rateprofile 0
 		set gps_rescue_use_mag = ONE
 	#$ OPTION END
 
-	#$ OPTION BEGIN (UNCHECKED): Flywoo GM8-5883 V1.0
-		feature GPS
-		set osd_profile = 2
-
-		set gps_provider = UBLOX
-		set gps_sbas_mode = EGNOS
-		set gps_auto_baud = ON
-		set gps_auto_config = ON
-		set gps_ublox_use_galileo = ON
+	#$ OPTION BEGIN (UNCHECKED): Return Home
 		set gps_rescue_allow_arming_without_fix = ON
 		set failsafe_procedure = GPS-RESCUE
 		rxfail 3 s 1500

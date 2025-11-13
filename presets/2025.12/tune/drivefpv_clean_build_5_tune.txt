@@ -1,5 +1,5 @@
 #$ TITLE: drivefpv clean build 5 inch tune
-#$ FIRMWARE_VERSION: 4.5
+#$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: TUNE
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: drivefpv, clean, tune
@@ -7,7 +7,7 @@
 #$ DESCRIPTION: drivefpv clean build 5 inch tune
 
 set simplified_master_multiplier = 145
-set simplified_d_gain = 75
+set simplified_d_gain = 85
 set simplified_dmax_gain = 0
 set simplified_feedforward_gain = 65
 simplified_tuning apply

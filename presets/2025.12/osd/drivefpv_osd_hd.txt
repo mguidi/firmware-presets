@@ -1,11 +1,12 @@
 #$ TITLE: drivefpv osd hd for avatar and dji g2
-#$ FIRMWARE_VERSION: 2025-12
+#$ FIRMWARE_VERSION: 2025.12
 #$ CATEGORY: OSD
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: drivefpv, osd, dji, g2, avatar
 #$ AUTHOR: Marco Guidi
 #$ DESCRIPTION: drivefpv osd hd for avatar and dji g2
-#$ INCLUDE: presets/4.4/osd/defaults.txt
+
+#$ INCLUDE: presets/2025.12/osd/defaults.txt
 
 set osd_warn_bitmask = 24575
 set osd_rssi_alarm = 0
