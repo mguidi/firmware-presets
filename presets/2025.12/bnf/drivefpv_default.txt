@@ -41,15 +41,15 @@ rateprofile 0
 
 #$ OPTION_GROUP BEGIN: Osd
     #$ OPTION BEGIN (CHECKED): Digital HD
-		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_hd.txt.txt
+		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_hd.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog PAL
-		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_analog_pal.txt
+		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_pal.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog NTSC
-		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_analog_ntsc.txt
+		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_ntsc.txt
 	#$ OPTION END
 #$ OPTION_GROUP END
 

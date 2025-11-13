@@ -134,6 +134,7 @@
   },
   "uniqueValues": {
     "firmware_version": [
+      "2025.12",
       "3.5",
       "4.2",
       "4.3",
@@ -160,6 +161,7 @@
       "AyyyKayyy - Anthony Knight",
       "Benjamin Freelove",
       "benlumley",
+      "bensonk",
       "Betaflight",
       "BMSThomas",
       "Botgrinder",
@@ -175,6 +177,7 @@
       "FPV_Cam",
       "FPVian",
       "Garban",
+      "Grey pang",
       "IllusionFpv",
       "Ivan Efimov (Limon)",
       "Jakub Espandr (FlyCamCzech)",
@@ -300,7 +303,7 @@
       "Audio TBS",
       "AutoSelect",
       "aux",
-      "Avatar",
+      "avatar",
       "AyyyKayyy",
       "bando",
       "bardwell",
@@ -329,6 +332,8 @@
       "CineApe",
       "cinelifter",
       "CineLog",
+      "Cinelog30V3HD",
+      "Cinelog30V3WTF",
       "cinematic",
       "cinewhoop",
       "clean",
@@ -389,6 +394,7 @@
       "FreshBread",
       "frsky",
       "fx2",
+      "g2",
       "Garban",
       "geprc",
       "ghost",
@@ -402,7 +408,7 @@
       "HD",
       "HD video",
       "HDOSD",
-      "HDzero",
+      "HDZERO",
       "Headsup",
       "HighKV",
       "hot",
@@ -432,6 +438,7 @@
       "log",
       "logging",
       "Long Range",
+      "longrange",
       "loRanger",
       "lr5",
       "mamba",
@@ -443,18 +450,21 @@
       "MM",
       "mode",
       "modes",
+      "mountain surfing",
       "mouse fpv",
       "mr nice",
       "mrnice",
       "msp",
       "MSP VTX",
       "msp-osd",
+      "MtnSurf",
       "Multi",
       "MultiGP",
       "MultiVoltage",
       "names",
       "nano",
       "nanohawk",
+      "navigation",
       "Neil",
       "neuron",
       "nice",
@@ -487,7 +497,7 @@
       "race v2",
       "Race250",
       "Race500",
-      "racing",
+      "Racing",
       "rad",
       "ranging",
       "rates",
@@ -495,6 +505,7 @@
       "rc link",
       "rc_link",
       "rc_smoothing",
+      "recopter",
       "Redpine",
       "reset",
       "reset statistics",
@@ -549,6 +560,7 @@
       "tank solo",
       "tank ultimate",
       "TBS",
+      "TBS Core",
       "tbs sa",
       "Team Black Sheep",
       "Texas",
@@ -563,14 +575,16 @@
       "trainer",
       "tramp",
       "transmitter",
-      "Tune",
+      "tune",
       "twig",
       "tx1600",
       "tx5m.1",
       "tx800",
       "tyrant",
+      "ul10",
       "ul5",
       "ul7",
+      "ul8",
       "ultra",
       "ultra 1000",
       "ultralite",
@@ -607,6 +621,249 @@
     ]
   },
   "presets": [
+    {
+      "fullPath": "presets/2025.12/bnf/drivefpv_default.txt",
+      "hash": "2b4a7dcd71a1d22538196cc58d60865a024a4e6bac6f95ec400d8fd2e2a34cdb",
+      "title": "drivefpv defaults",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "BNF",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "defaults"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/filters/drivefpv_clean_build_5_filters.txt",
+      "hash": "505ae5ae4446ab78ab312f6507c86710658d68e9247c60d855ce3c2470cedfae",
+      "title": "drivefpv clean build 5 inch filters",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "clean",
+        "filters"
+      ],
+      "author": "Marco Guidi",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/2025.12/modes/drivefpv_modes.txt",
+      "hash": "b03acf97fd27b79f1ad0edc5be598995eb9796cf49ef0f889df848cd7dbf50d3",
+      "title": "drivefpv mode",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "mode",
+        "modes",
+        "aux",
+        "switch"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/modes/drivefpv_modes_gps.txt",
+      "hash": "ce803e0cc16235ba4c712650e3997b2265842a40f6312dba4ea9523e7d0fee67",
+      "title": "drivefpv mode gps rescue poshold",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "MODES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "mode",
+        "modes",
+        "aux",
+        "switch"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/JazzMutant_HDZero_osd.txt",
+      "hash": "fe9a089a9f86e1fdf676c73beec4558f8c895f2eb7d317f3e0a4d9989d779d86",
+      "title": "JazzMutant HDZero OSD",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "HDZERO",
+        "HD",
+        "HDOSD",
+        "OSD",
+        "JazzMutant",
+        "Racing"
+      ],
+      "author": "JazzMutant",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/UAV_tech_Analog.txt",
+      "hash": "80cab8b4197661c9232b38564da4ee8e2ad10c0f89ea9975038b7e2b686274ef",
+      "title": "UAV Tech - Analog",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "analog"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/UAV_tech_DJI.txt",
+      "hash": "de9e7c169ff14594f454ccb2330c5b289ea946f8cf2c145682a960fff105e7ba",
+      "title": "UAV Tech - DJI",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "DJI"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/UAV_tech_DJI_GPS.txt",
+      "hash": "a2f45fc44448579f611fe2e4e8bf6145fec0ef42b17952287b6c0344b0e1d990",
+      "title": "UAV Tech - DJI with GPS",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "DJI",
+        "GPS"
+      ],
+      "author": "UAV Tech (Mark Spatz)",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/defaults.txt",
+      "hash": "82aecb211c6ed2fc0d6bcbefd59c2535b324c34f73c1c2649cdb821adaf2b63f",
+      "title": "Default 2025.12 OSD settings",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset",
+        "OSD"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/drivefpv_osd_hd.txt",
+      "hash": "562215153a251c11b93dc531173c47f7916476c761352d419b92d1e15c285621",
+      "title": "drivefpv osd hd for avatar and dji g2",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "osd",
+        "dji",
+        "g2",
+        "avatar"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/osd/sugark_hdzero_osd.txt",
+      "hash": "656a74f10de5a16a67ee453e84a4e87e2b4d03debb96ef45a1c52d7b6a1f26d3",
+      "title": "sugarK HDzero OSD",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "hdzero",
+        "HD",
+        "HDOSD",
+        "OSD",
+        "sugarK",
+        "racing"
+      ],
+      "author": "sugarK",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/rates/defaults.txt",
+      "hash": "28417e3b786a5d364fcc6c2a3c37207fb9ebb6c571364468096702f46c8835bb",
+      "title": "Default rates",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "RATES",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "rates",
+        "actual"
+      ],
+      "author": "Betaflight",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/2025.12/rates/drivefpv_freestyle_cinematic.txt",
+      "hash": "8c82c5810721bfb0e3dc272045e9c7ac93b770252314da37ff7db2c50f77184d",
+      "title": "drivefpv rates freestyle cinematic",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "RATES",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "rates"
+      ],
+      "author": "Marco Guidi",
+      "priority": 10000
+    },
+    {
+      "fullPath": "presets/2025.12/tune/drivefpv_clean_build_5_tune.txt",
+      "hash": "32b1c7f016dfbbb2dd625d12533e1eb21660d2893505e3bdb12a4c1129ce774f",
+      "title": "drivefpv clean build 5 inch tune",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "clean",
+        "tune"
+      ],
+      "author": "Marco Guidi",
+      "priority": 1000000000000
+    },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
       "hash": "c0bd2461401e586a4bdb5bf104db999a11bf8341762dbe509adf2d676f5b4412",
@@ -1803,7 +2060,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_150hz.txt",
-      "hash": "d22b0d44a2b43371e90d9e55ee84f1974772c273dba2a9f3be07c7e6b03df907",
+      "hash": "184837f2b9fd127ad77396b039e8a1f5f4e0dd25ce2243ad1d71ed5ee4f83bec",
       "title": "ExpressLRS 150Hz",
       "firmware_version": [
         "4.3",
@@ -1827,7 +2084,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_250hz.txt",
-      "hash": "93bbf1677661ffa837c016c20c0f625481f171bb225f57232442a2fd50557fce",
+      "hash": "23338d1dde96c11045e0fb112d11e71226ab4d247414fbbd736c6bbb55cf2a60",
       "title": "ExpressLRS 250Hz",
       "firmware_version": [
         "4.3",
@@ -1851,7 +2108,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_500hz.txt",
-      "hash": "faecfd633baedd5f1a66dc0686d3dfd50b5b6a2fd9d85e00a14905e0de5198e5",
+      "hash": "1473b88ce95130f1d3d106859dde0729ea1dcca1cf4cf801e7721bff523bb98b",
       "title": "ExpressLRS 500Hz",
       "firmware_version": [
         "4.3",
@@ -1875,7 +2132,7 @@
     },
     {
       "fullPath": "presets/4.3/rc_link/elrs_50hz.txt",
-      "hash": "7f73224ec6a15a37ef9b56eefe2ed24db8b5dfbd12aa8ab273d030f916f07d00",
+      "hash": "7df044f3e2ae87dd3d54c2efbce2fa751a888d0c8becd8e515e30a4a8b6e4d14",
       "title": "ExpressLRS 50Hz",
       "firmware_version": [
         "4.3",
@@ -4428,7 +4685,7 @@
     },
     {
       "fullPath": "presets/4.4/modes/drivefpv_modes_gps.txt",
-      "hash": "3ede2516daea0be9a714db5146541ee6bb7702a97bbaf93aa8fb1424cce539a2",
+      "hash": "fb44ba5916d9e2f925d835c317cec8885b590f8f10a86988728d4425eaf110d4",
       "title": "drivefpv mode gps rescue",
       "firmware_version": [
         "4.4",
@@ -4520,7 +4777,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/drivefpv_osd_analog_pal.txt",
-      "hash": "11f0be87a8647ee38e86af9d68262731a88cb3d3d43570fd0945671109bdc40f",
+      "hash": "00e4693630322bbabf6473e1d95028df8784462b38794222aca95d2a7a5c5ff0",
       "title": "drivefpv osd analog PAL",
       "firmware_version": [
         "4.4",
@@ -4575,7 +4832,7 @@
     },
     {
       "fullPath": "presets/4.4/osd/drivefpv_osd_dji.txt",
-      "hash": "73ffdc9d1849a70a2de805e570424d79b015b19beea3a4bb7cc3393f5ddb6c68",
+      "hash": "988d6516f9dfde5208402b41d48cd0e6fdda0ff61db559546179f9aba4d8ec24",
       "title": "drivefpv osd avatar",
       "firmware_version": [
         "4.4",
@@ -5896,6 +6153,24 @@
       "priority": 1000000
     },
     {
+      "fullPath": "presets/4.5/bnf/GEPRC_Cinelog30V3.txt",
+      "hash": "d440ec7f974b0819df5a18b13e829767f3761d08cecaf364ccf4c7b751786fbd",
+      "title": "GEPRC Cinelog30V3 HD O4",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "BNF",
+      "status": "OFFICIAL",
+      "keywords": [
+        "GEPRC",
+        "Cinelog30V3HD",
+        "Cinelog30V3WTF"
+      ],
+      "author": "Grey pang",
+      "force_options_review": true,
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/bnf/betafpv_air75.txt",
       "hash": "8b97e2a35503478d141d5707f3de6baddceff463f1eede4bd3caa3fd51c56075",
       "title": "BetaFPV Air75 Factory Defaults",
@@ -5915,7 +6190,7 @@
     },
     {
       "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "7a9f89e79200d696a6d1bb5e1a57b230ea0119fa44f2e50c27f4c3b6f9e6b516",
+      "hash": "401c65bb26c9cd76488493ef1f08d495b5e8c9e63dbaea07e01df426d3f88c43",
       "title": "drivefpv defaults",
       "firmware_version": [
         "4.5"
@@ -6238,6 +6513,26 @@
       "priority": 100
     },
     {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_ul10_filters.txt",
+      "hash": "d08019479b0a15c66c45383a827104e54e934310054bd30ce049c2ede6167ebd",
+      "title": "AOS UL10 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "ul10"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
       "fullPath": "presets/4.5/filters/aos_rc/aos_ul5_filters.txt",
       "hash": "4248ae596b9df2b204ffc60a596baf3b62dc61ab9c1b1b5cf71f35d5d8ca1dc1",
       "title": "AOS UL5 Filters",
@@ -6273,6 +6568,26 @@
         "chris",
         "rosser",
         "ul7"
+      ],
+      "author": "Chris Rosser",
+      "priority": 100
+    },
+    {
+      "fullPath": "presets/4.5/filters/aos_rc/aos_ul8_filters.txt",
+      "hash": "38cbc253ebea2676f213b1d4b22466b676414b2a2f0416e7caa455b7de1bdf01",
+      "title": "AOS UL8 Filters",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "FILTERS",
+      "status": "COMMUNITY",
+      "keywords": [
+        "filter",
+        "filters",
+        "aos",
+        "chris",
+        "rosser",
+        "ul8"
       ],
       "author": "Chris Rosser",
       "priority": 100
@@ -6640,6 +6955,49 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.5/osd/JazzMutant_HDZero_osd.txt",
+      "hash": "a31f1b77f1506cb07a923d7f86a268c98de71574453ac3f4ca6ba11cd7637c0b",
+      "title": "JazzMutant HDZero OSD",
+      "firmware_version": [
+        "4.4",
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "HDZERO",
+        "HD",
+        "HDOSD",
+        "OSD",
+        "JazzMutant",
+        "Racing"
+      ],
+      "author": "JazzMutant",
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/osd/bensonk.txt",
+      "hash": "02af0529b806847b1128711bde753009000a659508ef23613ee7399b29685e98",
+      "title": "bensonk standard OSD config",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "OSD",
+        "TBS",
+        "TBS Core",
+        "GPS",
+        "navigation",
+        "longrange",
+        "mountain surfing",
+        "MtnSurf"
+      ],
+      "author": "bensonk",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.5/osd/sugark_hdzero_osd.txt",
       "hash": "d3f43e0baad7d2b2331b71b76029b2576f0f73520ac72060f4ec281153a1e8fa",
       "title": "sugarK HDzero OSD",
@@ -6711,6 +7069,23 @@
       ],
       "author": "Daniel Appel / Tehllama",
       "force_options_review": true,
+      "priority": 0
+    },
+    {
+      "fullPath": "presets/4.5/other/bensonk-switches.txt",
+      "hash": "ca0d77d0054512da7ca4551de98098612c3a7b1d4307156b018b03807f03ebf3",
+      "title": "bensonk - Standard switch settings",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "OTHER",
+      "status": "COMMUNITY",
+      "keywords": [
+        "switch",
+        "mode",
+        "modes"
+      ],
+      "author": "bensonk",
       "priority": 0
     },
     {
@@ -7275,6 +7650,27 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_ul10_tune.txt",
+      "hash": "415dae4e2d6d5298d60891d8d120ef3cda7b631124b7ad44354c25f4b74f2a84",
+      "title": "AOS UL10 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "ul10"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/aos_rc/aos_ul5_tune.txt",
       "hash": "e760a4049d390838f91aa9b80d783a0c898b53d7d1bbe27616b202fe1d7fe856",
       "title": "AOS UL5 tune by Chris Rosser",
@@ -7317,6 +7713,27 @@
       "priority": 1000000000000
     },
     {
+      "fullPath": "presets/4.5/tune/aos_rc/aos_ul8_tune.txt",
+      "hash": "14bcaa0535c360393c56d5d628304e669982ee3f322b9648e2cd244f9c63ae28",
+      "title": "AOS UL8 tune by Chris Rosser",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "COMMUNITY",
+      "keywords": [
+        "aos",
+        "chris",
+        "rosser",
+        "pid",
+        "tune",
+        "ul8"
+      ],
+      "author": "Chris Rosser",
+      "force_options_review": true,
+      "priority": 1000000000000
+    },
+    {
       "fullPath": "presets/4.5/tune/barracuda_race_tune.txt",
       "hash": "5ed4b6efc4a2642990b39d25a66c30acb3a91c6a0c0661436b29d63af13da2a6",
       "title": "Barracuda Racer Tune",
@@ -7336,6 +7753,29 @@
         "2024"
       ],
       "author": "Viki Baarathi",
+      "priority": 1000000000000
+    },
+    {
+      "fullPath": "presets/4.5/tune/basher_jazzmutant_tune.txt",
+      "hash": "e6ac203f6f1550aca430e94ce1edf558ce158155b3474b097f0f47beee3b9e6e",
+      "title": "Basher 5\" 6S by JazzMutant",
+      "firmware_version": [
+        "4.5"
+      ],
+      "category": "TUNE",
+      "status": "EXPERIMENTAL",
+      "keywords": [
+        "basher",
+        "freestyle",
+        "5 Inch",
+        "5 In",
+        "5\"",
+        "recopter",
+        "bando",
+        "JazzMutant"
+      ],
+      "author": "JazzMutant",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
@@ -7779,7 +8219,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/openracer_jazzmutant_tune.txt",
-      "hash": "9e3e7717538165993ac88f5f82591a831cb9b6b1ac5014743ceb0704830684e5",
+      "hash": "d31fe15da3d1c5a3fefedfc9374d34777d22a2c1c6a59cb1208b1cded2254e9a",
       "title": "OpenRacer 5\" 6S by JazzMutant",
       "firmware_version": [
         "4.5"
@@ -7800,7 +8240,7 @@
     },
     {
       "fullPath": "presets/4.5/tune/ozr_5x.txt",
-      "hash": "9c14df1d260f005e01483c77dbfc5ae5cad74ee4a3b38314df887dcf81f439db",
+      "hash": "8749cb9d45d340232d583373f3bb84280e560908bef234b2261f3bed3d5a0657",
       "title": "DinDrones OZR-5X",
       "firmware_version": [
         "4.5"
@@ -7818,6 +8258,7 @@
         "din"
       ],
       "author": "Benjamin Freelove",
+      "force_options_review": true,
       "priority": 1000000000000
     },
     {
