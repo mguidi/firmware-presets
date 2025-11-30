@@ -29,11 +29,13 @@ set mag_hardware = NONE
 set baro_hardware = NONE
 set pidsum_limit = 1000
 set pidsum_limit_yaw = 1000
-set pilot_name = DRIVEFPV
 set tpa_rate = 65
 set tpa_breakpoint = 1750
-set debug_mode = GYRO_SCALED
+set debug_mode = FFT_FREQ
 set blackbox_sample_rate = 1/2
+set min_check = 1050
+set max_check = 1950
+set angle_limit = 30
 
 
 rateprofile 0
@@ -45,58 +47,13 @@ rateprofile 0
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog PAL
-		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_pal.txt
+		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_analog.txt
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Analog NTSC
-		#$ INCLUDE: presets/4.4/osd/drivefpv_osd_analog_ntsc.txt
+		#$ INCLUDE: presets/2025.12/osd/drivefpv_osd_analog.txt
 	#$ OPTION END
 #$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: DSHOT
-	#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F4 DSHOT300
-		set dshot_bidir = ON
-		set motor_pwm_protocol = DSHOT300
-		set motor_poles = 12
-		set pid_process_denom = 2
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): BIDIR 12p - F7 DSHOT600
-		set dshot_bidir = ON
-		set motor_pwm_protocol = DSHOT600
-		set motor_poles = 12
-		set pid_process_denom = 1
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F4 DSHOT300
-		set dshot_bidir = ON
-		set motor_pwm_protocol = DSHOT300
-		set motor_poles = 14
-		set pid_process_denom = 2
-	#$ OPTION END
-
-	#$ OPTION BEGIN (UNCHECKED): BIDIR 14p - F7 DSHOT300 BMI270
-		set dshot_bidir = ON
-		set motor_pwm_protocol = DSHOT300
-		set motor_poles = 14
-		set pid_process_denom = 1
-	#$ OPTION END
-
-	#$ OPTION BEGIN (CHECKED): BIDIR 14p - F7 DSHOT600
-		set dshot_bidir = ON
-		set motor_pwm_protocol = DSHOT600
-		set motor_poles = 14
-		set pid_process_denom = 1
-	#$ OPTION END
-#$ OPTION_GROUP END
-
-#$ OPTION_GROUP BEGIN: Tune
-	#$ OPTION BEGIN (UNCHECKED): Clean build
-		#$ INCLUDE: presets/2025.12/filters/drivefpv_clean_build_5_filters.txt
-		#$ INCLUDE: presets/2025.12/tune/drivefpv_clean_build_5_tune.txt
-	#$ OPTION END
-#$ OPTION_GROUP END
-
 
 #$ OPTION_GROUP BEGIN: ESC
 	#$ OPTION BEGIN (CHECKED): Reverse esc

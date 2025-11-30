@@ -575,7 +575,7 @@
       "trainer",
       "tramp",
       "transmitter",
-      "tune",
+      "Tune",
       "twig",
       "tx1600",
       "tx5m.1",
@@ -623,7 +623,7 @@
   "presets": [
     {
       "fullPath": "presets/2025.12/bnf/drivefpv_default.txt",
-      "hash": "2b4a7dcd71a1d22538196cc58d60865a024a4e6bac6f95ec400d8fd2e2a34cdb",
+      "hash": "c0f06b64382087de870351125d99f695d7c7c6ba54c8f19224ac05cb0c8a4a36",
       "title": "drivefpv defaults",
       "firmware_version": [
         "2025.12"
@@ -636,23 +636,6 @@
       ],
       "author": "Marco Guidi",
       "priority": 0
-    },
-    {
-      "fullPath": "presets/2025.12/filters/drivefpv_clean_build_5_filters.txt",
-      "hash": "505ae5ae4446ab78ab312f6507c86710658d68e9247c60d855ce3c2470cedfae",
-      "title": "drivefpv clean build 5 inch filters",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "clean",
-        "filters"
-      ],
-      "author": "Marco Guidi",
-      "priority": 100
     },
     {
       "fullPath": "presets/2025.12/modes/drivefpv_modes.txt",
@@ -776,6 +759,23 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/2025.12/osd/drivefpv_osd_analog.txt",
+      "hash": "02dfc53dc747709a360c04b160896b406748e0e8de4e8ddff192ef2c02325a59",
+      "title": "drivefpv osd analog",
+      "firmware_version": [
+        "2025.12"
+      ],
+      "category": "OSD",
+      "status": "COMMUNITY",
+      "keywords": [
+        "drivefpv",
+        "osd",
+        "analog"
+      ],
+      "author": "Marco Guidi",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/2025.12/osd/drivefpv_osd_hd.txt",
       "hash": "562215153a251c11b93dc531173c47f7916476c761352d419b92d1e15c285621",
       "title": "drivefpv osd hd for avatar and dji g2",
@@ -846,23 +846,6 @@
       ],
       "author": "Marco Guidi",
       "priority": 10000
-    },
-    {
-      "fullPath": "presets/2025.12/tune/drivefpv_clean_build_5_tune.txt",
-      "hash": "32b1c7f016dfbbb2dd625d12533e1eb21660d2893505e3bdb12a4c1129ce774f",
-      "title": "drivefpv clean build 5 inch tune",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "clean",
-        "tune"
-      ],
-      "author": "Marco Guidi",
-      "priority": 1000000000000
     },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
