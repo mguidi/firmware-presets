@@ -141,12 +141,13 @@ rateprofile 0
 
 	#$ OPTION BEGIN (UNCHECKED): Position Hold with magnetometer
 		set pos_hold_without_mag = OFF
-		set gps_rescue_use_mag = ONE
+		set gps_rescue_use_mag = ON
 	#$ OPTION END
 
 	#$ OPTION BEGIN (UNCHECKED): Return Home
 		set gps_rescue_allow_arming_without_fix = ON
 		set failsafe_procedure = GPS-RESCUE
-		rxfail 3 s 1500
+		rxfail 3 s 1700
+		rxfail 6 s 1500
 	#$ OPTION END
 #$ OPTION_GROUP END
