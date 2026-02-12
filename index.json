@@ -623,7 +623,7 @@
   "presets": [
     {
       "fullPath": "presets/2025.12/bnf/drivefpv_default.txt",
-      "hash": "c0f06b64382087de870351125d99f695d7c7c6ba54c8f19224ac05cb0c8a4a36",
+      "hash": "215243fad86dadd40ef817e43959c78fe30f7f8ecb682d76fe58f9460035ac6c",
       "title": "drivefpv defaults",
       "firmware_version": [
         "2025.12"
@@ -658,7 +658,7 @@
     },
     {
       "fullPath": "presets/2025.12/modes/drivefpv_modes_gps.txt",
-      "hash": "ce803e0cc16235ba4c712650e3997b2265842a40f6312dba4ea9523e7d0fee67",
+      "hash": "a66012b4d4c29721f40baa4ca46a1d73d8644d7940de3705bc3331d704cf6639",
       "title": "drivefpv mode gps rescue poshold",
       "firmware_version": [
         "2025.12"
@@ -760,7 +760,7 @@
     },
     {
       "fullPath": "presets/2025.12/osd/drivefpv_osd_analog.txt",
-      "hash": "02dfc53dc747709a360c04b160896b406748e0e8de4e8ddff192ef2c02325a59",
+      "hash": "47f7a12a4cab8be5478375114713e364b70948f4b21feb98632c4b5cfce32b01",
       "title": "drivefpv osd analog",
       "firmware_version": [
         "2025.12"
@@ -777,7 +777,7 @@
     },
     {
       "fullPath": "presets/2025.12/osd/drivefpv_osd_hd.txt",
-      "hash": "562215153a251c11b93dc531173c47f7916476c761352d419b92d1e15c285621",
+      "hash": "e641378516771a185cf745fc8b4f60a72fae4b31005c407e9ba06530c506e49a",
       "title": "drivefpv osd hd for avatar and dji g2",
       "firmware_version": [
         "2025.12"
