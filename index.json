@@ -189,7 +189,6 @@
       "Jye Smith",
       "KMfpv",
       "LeadFingers",
-      "Marco Guidi",
       "MinChan Kim",
       "mouseFPV",
       "MrAlucardDante",
@@ -211,7 +210,6 @@
     ],
     "keywords": [
       "\\\\GAS",
-      "03",
       "10\"",
       "100 euro fpv",
       "1000Hz",
@@ -297,13 +295,11 @@
       "AlexFPV",
       "analog",
       "antonig",
-      "AOS",
       "AOS T3",
       "Apex",
       "Audio TBS",
       "AutoSelect",
       "aux",
-      "avatar",
       "AyyyKayyy",
       "bando",
       "bardwell",
@@ -365,7 +361,6 @@
       "divimath",
       "DJI",
       "dominator",
-      "drivefpv",
       "DShot telemetry",
       "eachine",
       "ELRS",
@@ -388,13 +383,11 @@
       "freedom",
       "freedom spec",
       "FreedomSpec",
-      "freestyle",
       "freesytle",
       "freetyle",
       "FreshBread",
       "frsky",
       "fx2",
-      "g2",
       "Garban",
       "geprc",
       "ghost",
@@ -432,7 +425,6 @@
       "LeadFingers",
       "League",
       "leds",
-      "Limon",
       "link",
       "Llama",
       "log",
@@ -471,11 +463,8 @@
       "nmea",
       "no rpm",
       "noisy",
-      "normal",
-      "O3",
       "O3 air unit",
       "Omni",
-      "OpenRacer",
       "OpenVTx",
       "OSD",
       "ozr",
@@ -491,7 +480,6 @@
       "quaddiction",
       "quick",
       "R9",
-      "race",
       "race rates ctzsnooze actual",
       "race v1",
       "race v2",
@@ -501,7 +489,6 @@
       "rad",
       "ranging",
       "rates",
-      "rc",
       "rc link",
       "rc_link",
       "rc_smoothing",
@@ -524,7 +511,6 @@
       "sa2.0",
       "sa20",
       "Safe",
-      "sbang",
       "sbus",
       "SBUS fast",
       "settek",
@@ -570,12 +556,10 @@
       "TinyApe",
       "TinyTrainer",
       "toothpic",
-      "Toothpick",
       "Tracer",
       "trainer",
       "tramp",
       "transmitter",
-      "Tune",
       "twig",
       "tx1600",
       "tx5m.1",
@@ -622,57 +606,28 @@
   },
   "presets": [
     {
-      "fullPath": "presets/2025.12/bnf/drivefpv_default.txt",
-      "hash": "215243fad86dadd40ef817e43959c78fe30f7f8ecb682d76fe58f9460035ac6c",
-      "title": "drivefpv defaults",
       "firmware_version": [
         "2025.12"
       ],
-      "category": "BNF",
       "status": "COMMUNITY",
       "keywords": [
-        "drivefpv",
-        "defaults"
       ],
-      "author": "Marco Guidi",
-      "priority": 0
     },
     {
-      "fullPath": "presets/2025.12/modes/drivefpv_modes.txt",
-      "hash": "b03acf97fd27b79f1ad0edc5be598995eb9796cf49ef0f889df848cd7dbf50d3",
-      "title": "drivefpv mode",
       "firmware_version": [
         "2025.12"
       ],
-      "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "drivefpv",
-        "mode",
-        "modes",
-        "aux",
-        "switch"
       ],
-      "author": "Marco Guidi",
-      "priority": 0
     },
     {
-      "fullPath": "presets/2025.12/modes/drivefpv_modes_gps.txt",
-      "hash": "a66012b4d4c29721f40baa4ca46a1d73d8644d7940de3705bc3331d704cf6639",
-      "title": "drivefpv mode gps rescue poshold",
       "firmware_version": [
         "2025.12"
       ],
-      "category": "MODES",
       "status": "COMMUNITY",
       "keywords": [
-        "drivefpv",
-        "mode",
-        "modes",
-        "aux",
-        "switch"
       ],
-      "author": "Marco Guidi",
       "priority": 0
     },
     {
@@ -697,13 +652,11 @@
     },
     {
       "fullPath": "presets/2025.12/osd/UAV_tech_Analog.txt",
-      "hash": "80cab8b4197661c9232b38564da4ee8e2ad10c0f89ea9975038b7e2b686274ef",
       "title": "UAV Tech - Analog",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
       "keywords": [
         "analog"
       ],
@@ -712,13 +665,11 @@
     },
     {
       "fullPath": "presets/2025.12/osd/UAV_tech_DJI.txt",
-      "hash": "de9e7c169ff14594f454ccb2330c5b289ea946f8cf2c145682a960fff105e7ba",
       "title": "UAV Tech - DJI",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
       "keywords": [
         "DJI"
       ],
@@ -727,13 +678,11 @@
     },
     {
       "fullPath": "presets/2025.12/osd/UAV_tech_DJI_GPS.txt",
-      "hash": "a2f45fc44448579f611fe2e4e8bf6145fec0ef42b17952287b6c0344b0e1d990",
       "title": "UAV Tech - DJI with GPS",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OSD",
-      "status": "OFFICIAL",
       "keywords": [
         "DJI",
         "GPS"
@@ -759,44 +708,17 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/2025.12/osd/drivefpv_osd_analog.txt",
-      "hash": "47f7a12a4cab8be5478375114713e364b70948f4b21feb98632c4b5cfce32b01",
-      "title": "drivefpv osd analog",
       "firmware_version": [
         "2025.12"
       ],
       "category": "OSD",
       "status": "COMMUNITY",
       "keywords": [
-        "drivefpv",
-        "osd",
-        "analog"
       ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/2025.12/osd/drivefpv_osd_hd.txt",
-      "hash": "e641378516771a185cf745fc8b4f60a72fae4b31005c407e9ba06530c506e49a",
-      "title": "drivefpv osd hd for avatar and dji g2",
-      "firmware_version": [
-        "2025.12"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "osd",
-        "dji",
-        "g2",
-        "avatar"
-      ],
-      "author": "Marco Guidi",
       "priority": 0
     },
     {
       "fullPath": "presets/2025.12/osd/sugark_hdzero_osd.txt",
-      "hash": "656a74f10de5a16a67ee453e84a4e87e2b4d03debb96ef45a1c52d7b6a1f26d3",
       "title": "sugarK HDzero OSD",
       "firmware_version": [
         "2025.12"
@@ -832,20 +754,12 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/2025.12/rates/drivefpv_freestyle_cinematic.txt",
-      "hash": "8c82c5810721bfb0e3dc272045e9c7ac93b770252314da37ff7db2c50f77184d",
-      "title": "drivefpv rates freestyle cinematic",
       "firmware_version": [
         "2025.12"
       ],
-      "category": "RATES",
       "status": "COMMUNITY",
       "keywords": [
-        "drivefpv",
-        "rates"
       ],
-      "author": "Marco Guidi",
-      "priority": 10000
     },
     {
       "fullPath": "presets/4.3/filters/basic_no_rpm_clean.txt",
@@ -1795,12 +1709,10 @@
     },
     {
       "fullPath": "presets/4.3/rates/SugarK.txt",
-      "hash": "ec1e237c4ab6b382554c03c18433195cc82fe0253ffa28a680b55ed25bdf85ab",
       "title": "Sugar k rates",
       "firmware_version": [
         "4.3",
         "4.4",
-        "4.5"
       ],
       "category": "RATES",
       "status": "OFFICIAL",
@@ -1817,12 +1729,10 @@
     },
     {
       "fullPath": "presets/4.3/rates/SugarK_whoop.txt",
-      "hash": "9d805ecc28c5645d0770d31e0d2510e8b6cdc4b8994caa5fa98583e3e09f538a",
       "title": "Sugar k Whoop rates",
       "firmware_version": [
         "4.3",
         "4.4",
-        "4.5"
       ],
       "category": "RATES",
       "status": "OFFICIAL",
@@ -4647,46 +4557,6 @@
       "priority": 0
     },
     {
-      "fullPath": "presets/4.4/modes/drivefpv_modes.txt",
-      "hash": "099e17dea3b33dfd4ced6bbe25f62c3102c879d37a6c4c6487f0de39fd210424",
-      "title": "drivefpv mode",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "MODES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "mode",
-        "modes",
-        "aux",
-        "switch"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/modes/drivefpv_modes_gps.txt",
-      "hash": "fb44ba5916d9e2f925d835c317cec8885b590f8f10a86988728d4425eaf110d4",
-      "title": "drivefpv mode gps rescue",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "MODES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "mode",
-        "modes",
-        "aux",
-        "switch"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
       "fullPath": "presets/4.4/osd/QuadMcFly_DJI_HD_OSD.txt",
       "hash": "1bdc587fd4223c8526a7954c0b44e7bfc98a8b9d556de729d24376d06e29f3be",
       "title": "QuadMcFly - DJI HD OSD",
@@ -4738,97 +4608,6 @@
         "OSD"
       ],
       "author": "Betaflight",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/osd/drivefpv_osd_analog_ntsc.txt",
-      "hash": "fbaaff1380b3672d85a61766e21293e0a27a1a20a090bf341d69c902af894ebe",
-      "title": "drivefpv osd analog NTSC",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "osd",
-        "analog"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/osd/drivefpv_osd_analog_pal.txt",
-      "hash": "00e4693630322bbabf6473e1d95028df8784462b38794222aca95d2a7a5c5ff0",
-      "title": "drivefpv osd analog PAL",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "osd",
-        "analog"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/osd/drivefpv_osd_avatar.txt",
-      "hash": "a88f56ba8a5295c7527dbfa80d2c3462419e97de54059e2b494e6efee80702cb",
-      "title": "drivefpv osd avatar",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "osd",
-        "avatar"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/osd/drivefpv_osd_avatar_gps.txt",
-      "hash": "9d5a12765d2fe784ea6f880f343a89f20602c1815d17684a52685e3626ea3cb2",
-      "title": "drivefpv osd avatar gps",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "osd",
-        "avatar",
-        "gps"
-      ],
-      "author": "Marco Guidi",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.4/osd/drivefpv_osd_dji.txt",
-      "hash": "988d6516f9dfde5208402b41d48cd0e6fdda0ff61db559546179f9aba4d8ec24",
-      "title": "drivefpv osd avatar",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "OSD",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "osd",
-        "dji"
-      ],
-      "author": "Marco Guidi",
       "priority": 0
     },
     {
@@ -4955,23 +4734,6 @@
         "sbang"
       ],
       "author": "QuadMcFly (Ryan Harrell)",
-      "priority": 10000
-    },
-    {
-      "fullPath": "presets/4.4/rates/drivefpv_freestyle_cinematic.txt",
-      "hash": "3f1a696075b10278fb67301fcae55895109501ffce3159608cdcc1e5eb7ed86b",
-      "title": "drivefpv rates freestyle cinematic",
-      "firmware_version": [
-        "4.4",
-        "4.5"
-      ],
-      "category": "RATES",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "rates"
-      ],
-      "author": "Marco Guidi",
       "priority": 10000
     },
     {
@@ -6077,11 +5839,8 @@
     },
     {
       "fullPath": "presets/4.4/vtx/DJI_FPV-WTF_MSP-OSD.txt",
-      "hash": "3a32624a215bafee95f4581bea961dbdc7eac45f8c71e687c1c4ab45d0c2fbca",
-      "title": "OSD for Fpv.wtf, DJI O3, Avatar HD",
       "firmware_version": [
         "4.4",
-        "4.5"
       ],
       "category": "VTX",
       "status": "COMMUNITY",
@@ -6089,8 +5848,6 @@
         "vtx",
         "dji",
         "O3 air unit",
-        "O3",
-        "03",
         "avatar",
         "walksnail",
         "HD",
@@ -6169,22 +5926,6 @@
         "air75"
       ],
       "author": "YarosFPV (Yaroslav Syubayev)",
-      "priority": 0
-    },
-    {
-      "fullPath": "presets/4.5/bnf/drivefpv_default.txt",
-      "hash": "401c65bb26c9cd76488493ef1f08d495b5e8c9e63dbaea07e01df426d3f88c43",
-      "title": "drivefpv defaults",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "BNF",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "defaults"
-      ],
-      "author": "Marco Guidi",
       "priority": 0
     },
     {
@@ -6828,23 +6569,6 @@
         "reset"
       ],
       "author": "Betaflight",
-      "priority": 100
-    },
-    {
-      "fullPath": "presets/4.5/filters/drivefpv_clean_build_5_filters.txt",
-      "hash": "54c673edf6b3790e01c5b1d8a85c301822231c955e8aeb29b11e445928449cc6",
-      "title": "drivefpv clean build 5 inch filters",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "FILTERS",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "clean",
-        "filters"
-      ],
-      "author": "Marco Guidi",
       "priority": 100
     },
     {
@@ -7825,23 +7549,6 @@
       "priority": 1000000000000
     },
     {
-      "fullPath": "presets/4.5/tune/drivefpv_clean_build_5_tune.txt",
-      "hash": "86437a47099a34e9efa49a308e6c797068c6ad09b3b1b374024e38187bc63a67",
-      "title": "drivefpv clean build 5 inch tune",
-      "firmware_version": [
-        "4.5"
-      ],
-      "category": "TUNE",
-      "status": "COMMUNITY",
-      "keywords": [
-        "drivefpv",
-        "clean",
-        "tune"
-      ],
-      "author": "Marco Guidi",
-      "priority": 1000000000000
-    },
-    {
       "fullPath": "presets/4.5/tune/fpvian_basher_freestyle.txt",
       "hash": "763018fe6435f1ccaf5c51573955b9362aaa29459ad616980f82efbecd1be5ff",
       "title": "Basher Freestyle 6S 5\" by FPVian",
@@ -8284,7 +7991,6 @@
     },
     {
       "fullPath": "presets/4.5/tune/supafly_fpv/SupaflyFPV_Freestyle_3_4_Inch_EasyTune.txt",
-      "hash": "a74e9b3e4d95ea46153973ab9ebff69804b9ec57a763ba7159be20b501cef229",
       "title": "SupaflyFPV Freestyle 3/4 Inch",
       "firmware_version": [
         "4.5"
@@ -8307,7 +8013,6 @@
     },
     {
       "fullPath": "presets/4.5/tune/supafly_fpv/SupaflyFPV_Freestyle_5_Inch_EasyTune.txt",
-      "hash": "f68f5131112777f3d52687b8aaaa0eb024166b9b4d9558ba922b2a5ffdb03944",
       "title": "SupaflyFPV Freestyle 5 Inch",
       "firmware_version": [
         "4.5"
@@ -8328,7 +8033,6 @@
     },
     {
       "fullPath": "presets/4.5/tune/supafly_fpv/SupaflyFPV_Freestyle_6_and_EasyTune.txt",
-      "hash": "bf76b0083c271129934277bb1a787651cf0b828b576abb5a06c3c7b763e0cc3e",
       "title": "SupaflyFPV Freestyle 6 Inch",
       "firmware_version": [
         "4.5"
@@ -8347,7 +8051,6 @@
     },
     {
       "fullPath": "presets/4.5/tune/supafly_fpv/SupaflyFPV_Freestyle_7_Inch_EasyTune.txt",
-      "hash": "30c158d3d2f6dfb239a06b41d6c47af63043c6b4687b77e68c41324524f6986b",
       "title": "SupaflyFPV Freestyle 7 Inch",
       "firmware_version": [
         "4.5"
