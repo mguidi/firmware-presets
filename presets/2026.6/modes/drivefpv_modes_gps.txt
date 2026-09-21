@@ -1,0 +1,18 @@
+#$ TITLE: drivefpv mode gps rescue poshold
+#$ FIRMWARE_VERSION: 2026.6
+#$ CATEGORY: MODES
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: drivefpv, mode, modes, aux, switch
+#$ AUTHOR: Marco Guidi
+#$ DESCRIPTION: drivefpv mode Arm, Pre-Arm, Turtle, DebugMode, Angle, RTH, Buzzer, Position Hold
+#$ INCLUDE: presets/4.3/modes/defaults.txt
+
+
+aux 0 0 0 1900 2100 0 0
+aux 1 1 2 1400 1600 0 0
+aux 2 11 3 1400 1600 0 0
+aux 3 46 3 1900 2100 0 0
+aux 4 13 4 1900 2100 0 0
+aux 5 26 1 1400 2100 0 0
+aux 6 35 1 1900 2100 0 0
+aux 7 36 5 1900 2100 0 0
